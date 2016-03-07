@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <link rel="stylesheet" type="text/css" href="reset.css" >
+    <link rel="stylesheet" type="text/css" href="dropdown.css" >
+	<link rel="stylesheet" type="text/css" href="menun.css" >
+    <link rel="stylesheet" type="text/css" href="buttons.css" >
+
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div class="header_big_div">
+        <div class="header_div">
+            <button class="btnGI btnGI-1 btnGI-2 icon-g">GoodInc.</button>
+            <div class="value_div">
+                <table>
+                    <tr>
+                        <td>
+                            <div id="dd1" class="wrapper-dropdown-1" tabindex="1">
+				<span>Newsletter</span>
+				<ul class="dropdown1">
+					<li><a href="#">Item1</a></li>
+					<li><a href="#">Item2</a></li>
+				</ul>
+			</div>
+
+                        </td>
+                        <td>
+                            <div id="dd2" class="wrapper-dropdown-2" tabindex="2">
+				<span>Contact</span>
+				<ul class="dropdown2">
+					<li><a href="#">Item1</a></li>
+					<li><a href="#">Item2</a></li>
+				</ul>
+			</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+</div>
+
+<div class="backgr">
+
+    <div class="main_div">
+        <div class="menu_div"> <!--менюшка навигации навигации-->
+            <div class="menu_nav_div">
+				<table class="menu_table">
+					<tr>
+                    	<td id="menu_item"><a href="#"></a></td>
+						<td class="menu_td"><a href="#">Portfolio</a></td>
+						<td class="menu_td"><a href="#">Services</a></td>
+						<td class="menu_td"><a href="#">Staff</a></td>
+						<td class="menu_td"><a href="#">Articles</a></td>
+						<td class="menu_td"><a href="#">Contact</a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="menu_nav_2_div">
+				<tr>
+                	<td>
+                    	<div class="rmenu_button_area">
+<a href="#">Quicklinks</a>
+</div>
+                    </td>
+                    <td>
+                    <div id="dd3" class="wrapper-dropdown-3" tabindex="1">
+				<p>Select from dropdown</p>
+				<ul class="dropdown3" tabindex="1">
+					<li><a href="#">Item1</a></li>
+					<li><a href="#">Item2</a></li>
+				</ul>
+			</div>
+                    </td>
+                </tr>
+			</div>
+        </div>
+        <div id="first_div_v_menu">
+            Здесь то, что будет под тёмной хернёй и до 2х блоков с текстами и пикчами
+        </div>
+        выа<br>фпарар<br>шлнгола<br>рпрфвааывпафпв
+
+
+
+    </div>
+</div>
+
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			
+			function DropDown(el) {
+				this.dd3 = el;
+				this.placeholder = this.dd3.children('span');
+				this.opts = this.dd3.find('ul.dropdown3 > li');
+				this.val = '';
+				this.index = -1;
+				this.initEvents();
+			}
+			DropDown.prototype = {
+				initEvents : function() {
+					var obj = this;
+
+					obj.dd3.on('click', function(event){
+						$(this).toggleClass('active');
+						return false;
+					});
+
+					obj.opts.on('click',function(){
+						var opt = $(this);
+						obj.val = opt.text();
+						obj.index = opt.index();
+						obj.placeholder.text(obj.val);
+					});
+				},
+				getValue : function() {
+					return this.val;
+				},
+				getIndex : function() {
+					return this.index;
+				}
+			}
+
+			$(function() {
+
+				var dd3 = new DropDown( $('#dd3') );
+
+				$(document).click(function() {
+					// all dropdowns
+					$('.wrapper-dropdown-3').removeClass('active');
+				});
+
+			});
+			
+		</script>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			
+			function DropDown(el) {
+				this.dd1 = el;
+				this.placeholder = this.dd1.children('span');
+				this.opts = this.dd1.find('ul.dropdown1 > li');
+				this.val = '';
+				this.index = -1;
+				this.initEvents();
+			}
+			DropDown.prototype = {
+				initEvents : function() {
+					var obj = this;
+
+					obj.dd1.on('click', function(event){
+						$(this).toggleClass('active');
+						return false;
+					});
+
+					obj.opts.on('click',function(){
+						var opt = $(this);
+						obj.val = opt.text();
+						obj.index = opt.index();
+						obj.placeholder.text(obj.val);
+					});
+				},
+				getValue : function() {
+					return this.val;
+				},
+				getIndex : function() {
+					return this.index;
+				}
+			}
+
+			$(function() {
+
+				var dd1 = new DropDown( $('#dd1') );
+
+				$(document).click(function() {
+					// all dropdowns
+					$('.wrapper-dropdown-1').removeClass('active');
+				});
+
+			});
+			
+		</script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			
+			function DropDown(el) {
+				this.dd2 = el;
+				this.placeholder = this.dd2.children('span');
+				this.opts = this.dd2.find('ul.dropdown2 > li');
+				this.val = '';
+				this.index = -1;
+				this.initEvents();
+			}
+			DropDown.prototype = {
+				initEvents : function() {
+					var obj = this;
+
+					obj.dd2.on('click', function(event){
+						$(this).toggleClass('active');
+						return false;
+					});
+
+					obj.opts.on('click',function(){
+						var opt = $(this);
+						obj.val = opt.text();
+						obj.index = opt.index();
+						obj.placeholder.text(obj.val);
+					});
+				},
+				getValue : function() {
+					return this.val;
+				},
+				getIndex : function() {
+					return this.index;
+				}
+			}
+
+			$(function() {
+
+				var dd2 = new DropDown( $('#dd2') );
+
+				$(document).click(function() {
+					// all dropdowns
+					$('.wrapper-dropdown-2').removeClass('active');
+				});
+
+			});
+			
+		</script>
+
+
+</body>
+</html>

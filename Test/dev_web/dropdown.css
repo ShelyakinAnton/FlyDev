@@ -1,0 +1,217 @@
+@font-face {
+	font-family: 'NexaBold';
+	src: url('fonts/Nexa Bold.eot');
+	src: url('fonts/Nexa Bold.woff') format('woff'), url('fonts/Nexa Bold.ttf') format('truetype'), url('fonts/Nexa Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper-dropdown-1 {
+    position: relative;
+    width: 180px;
+	height:35px;
+	background:#fff;
+    padding: 12px 0 10px 40px;
+	background:#fff url(img/map.png) 15 px center no-repeat;
+    color: #979797;
+    outline: none;
+    cursor: pointer;
+	font-family:'NexaBold';
+	font-size:10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.wrapper-dropdown-1:before {
+	content: '';
+    position:absolute;
+	width:35px;
+	height:35px;
+	left:0;
+	top:0;
+	background:#fff url(img/map.png) center no-repeat;
+}
+
+.wrapper-dropdown-1:after {
+    content: '';
+    position:absolute;
+	width:35px;
+	height:35px;
+	right:0;
+	top:0;
+	border-left-style:solid;
+	border-left-color:#d8d8d8;
+	border-left-width:1px;
+	background:#ebebeb url(img/str.png) center no-repeat;;
+}
+
+.wrapper-dropdown-1 .dropdown1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    list-style: none;
+    opacity: 0;
+    pointer-events: none;
+	z-index:5;
+}
+
+.wrapper-dropdown-1 .dropdown1 li a {
+    display: block;
+    text-decoration: none;
+	font-family:'NexaBold';
+	font-size:10px;
+    color: #979797;
+     padding: 12px 0 10px 40px;
+}
+
+.wrapper-dropdown-1.active .dropdown1 {
+    opacity: 1;
+    pointer-events: auto;
+	background:#fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	z-index:5;
+}
+
+/************************************************/
+.wrapper-dropdown-2 {
+    position: relative;
+    width: 145px;
+	height:35px;
+	background:#fff;
+    padding: 12px 0 10px 40px;
+	background:#fff url(img/clock.png) 15 px center no-repeat;
+    color: #979797;
+    outline: none;
+    cursor: pointer;
+	margin-left:20px;
+	font-family:'NexaBold';
+	font-size:10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.wrapper-dropdown-2:before {
+	content: '';
+    position:absolute;
+	width:35px;
+	height:35px;
+	left:0;
+	top:0;
+	background:#fff url(img/clock.png) center no-repeat;
+}
+
+.wrapper-dropdown-2:after {
+    content: '';
+    position:absolute;
+	width:35px;
+	height:35px;
+	right:0;
+	top:0;
+	border-left-style:solid;
+	border-left-color:#d8d8d8;
+	border-left-width:1px;
+	background:#ebebeb url(img/str.png) center no-repeat;;
+}
+
+.wrapper-dropdown-2 .dropdown2 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    list-style: none;
+    opacity: 0;
+    pointer-events: none;
+	z-index:5;
+}
+
+.wrapper-dropdown-2 .dropdown2 li a {
+    display: block;
+    text-decoration: none;
+	font-family:'NexaBold';
+	font-size:10px;
+    color: #979797;
+     padding: 12px 0 10px 40px;
+}
+
+.wrapper-dropdown-2.active .dropdown2 {
+    opacity: 1;
+    pointer-events: auto;
+	background:#fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	z-index:5;
+}
+
+.wrapper-dropdown-3 {
+    position: relative;
+    width: 210px;
+	height:70px;
+    padding: 27px 0 10px 30px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+	font-family:'NexaBold';
+	font-size:10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background:#474747;
+}
+
+.wrapper-dropdown-3:before {
+	content: '';
+    position:absolute;
+	width:35px;
+	height:35px;
+	left:0;
+	top:0;
+}
+
+.wrapper-dropdown-3:after {
+    content: '';
+    position:absolute;
+	width:35px;
+	height:70px;
+	right:0;
+	top:0;
+	border:none;
+	background:#474747 url(img/strw.png) center no-repeat;;
+}
+
+.wrapper-dropdown-3 .dropdown3 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    list-style: none;
+    opacity: 0;
+    pointer-events: none;
+	z-index:5;
+}
+
+.wrapper-dropdown-3 .dropdown3 li a {
+    display: block;
+    text-decoration: none;
+	font-family:'NexaBold';
+	font-size:10px;
+    color: #979797;
+     padding: 12px 0 10px 40px;
+}
+
+.wrapper-dropdown-3.active .dropdown3 {
+    opacity: 1;
+    pointer-events: auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	z-index:5;
+}
+
+
+

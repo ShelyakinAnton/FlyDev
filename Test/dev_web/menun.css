@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: 'NexaBold';
+	src: url('fonts/Nexa Bold.eot');
+	src: url('fonts/Nexa Bold.woff') format('woff'), url('fonts/Nexa Bold.ttf') format('truetype'), url('fonts/Nexa Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#menu_item {
+	width:104px;
+	height:70px;
+	background:#474747 url(img/map.png) center no-repeat;
+}
+#menu_item:hover {
+	background:#505050 url(img/map.png) center no-repeat;
+}
+
+.menu_table
+{
+	width:450px;
+	height:70px;
+	cursor:pointer;
+    background:#474747;
+    vertical-align:middle;
+	text-align:center;
+}
+
+.menu_td {
+	width:90px;
+	vertical-align:middle;
+}
+
+.menu_td a {
+	color:#fff;
+	font-size:10px;
+	font-family:"NexaBold";
+	text-decoration:none;
+}
+
+.menu_td:hover {
+	background:#505050 url(img/rect.png) center bottom no-repeat;
+}
+	

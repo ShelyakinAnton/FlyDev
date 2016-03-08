@@ -160,6 +160,8 @@
     outline: none;
     cursor: pointer;
 	font-family:'NexaBold';
+	top:0;
+	right:0;
 	font-size:10px;
 	background:#474747;
 }

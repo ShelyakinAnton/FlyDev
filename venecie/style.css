@@ -92,3 +92,33 @@ text-align:right;
 	text-decoration:none;
 	font-weight:bold;
 }
+
+#booking_div{
+	background-color: #ffffff;
+	width:960px;
+	height:657px;
+	margin:12px 0px 0px 0px;
+}
+
+
+#booking_1_div{
+	background-color:#373737;
+	width:940px;
+	height:637px;
+	margin:10px;
+}
+
+#slider_div{
+	position:relative;
+	width:630px;
+	height:637px;
+	float:left;
+}
+
+#form_div{
+	position:relative;
+	background-color:#f3ddb5;
+	width:310px;
+	height:637px;
+	float:right;
+}

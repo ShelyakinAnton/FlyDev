@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'myriadProR';
-	src: url('fonts/MyriadPro-Regular.eot');
-	src: url('fonts/MyriadPro-Regular.woff') format('woff'), url('fonts/MyriadPro-Regular.ttf') format('truetype'), url('fonts/MyriadPro-Regular.svg') format('svg');
+	src: url('font/MyriadPro-Regular.eot');
+	src: url('font/MyriadPro-Regular.woff') format('woff'), url('font/MyriadPro-Regular.ttf') format('truetype'), url('font/MyriadPro-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -37,10 +37,9 @@ float:left;
 #info_div{
 position:relative;
 width:260px;
-height:114px;
+height:72px;
 float:right;
-right:0;
-top:0;
+right:21px;
 padding:0;
 }
 
@@ -48,8 +47,42 @@ padding:0;
 color:#72242b;
 font-family:'myriadProR';
 font-size:16px;
-padding-right:24px;
-line-height:18px;
-text-align:center;
+line-height:19px;
+text-align:right;
 }
 
+#menu_div{
+	background-color:#fff;
+	width:960px;
+	height:60px;
+}
+
+#menu_table{
+	background:#fff;
+	height:inherit;
+	width:inherit;
+}
+
+.menu_td{
+	width:240px;
+	height:inherit;
+	background-color:inherit;
+	text-align:center;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+.menu_td a{
+	font-family:'MyriadProR';
+	font-size:24px;
+	color:#651b1e;
+	text-decoration:none;
+}
+
+.menu_td:hover a{
+	font-family:'MyriadProR';
+	font-size:24px;
+	color:#72242b;
+	text-decoration:none;
+	font-weight:bold;
+}

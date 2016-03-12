@@ -150,5 +150,17 @@ text-align:right;
 
 #frame{
 	margin-left: 55px;
+	width: 460px;
+	height: 310px;
+	frameborder: none;
+	border:none;
+}
+#location_div ul li{
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+}
+#location_div ul li img{
+	margin-left: 223px
 }
 

@@ -124,3 +124,31 @@ text-align:right;
 	height:635px;
 	float:right;
 }
+
+#service_div{
+	height: 430px;
+	background-color:#ffffff;
+	margin-top: 10px;
+}
+
+#room_div{
+	height: 430px;
+	background-color:#ffffff;
+	margin-top: 10px;
+}
+
+#location_div{
+	height: 430px;
+	background-color:#ffffff;
+	margin-top: 10px;
+}
+
+#footer_div{
+	height: 140px;
+	background-color:#f3ddb5;
+}
+
+#frame{
+	margin-left: 55px;
+}
+

@@ -127,7 +127,8 @@ text-align:right;
 }
 
 #service_div{
-	height: 430px;
+	height: 450px;
+	width:inherit;
 	background-color:#ffffff;
 	margin-top: 10px;
 }

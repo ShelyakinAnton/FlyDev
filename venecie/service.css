@@ -1,0 +1,60 @@
+#service_head{
+	position:relative;
+	font-family:'MyriadProR';
+	color:#6e272f;
+	font-size:24px;
+	left:113px;
+	top:25px;
+	font-weight:bold;
+}
+#service_head_div{
+	width:inherit;
+	height:60px;
+	position:relative;
+}
+#service_body_1{
+	position:relative;
+	width:inherit;
+	height:195px;
+	background:#fff url(img/decor.png) 756px center no-repeat;
+}
+#service_body_2{
+	position:relative;
+	width:inherit;
+	height:195px;
+	background:#fff url(img/decor1.png) 30px center no-repeat;
+}
+#service_pic1{
+	height:inherit;
+	width:300px;
+	position:relative;
+	float:left;
+	padding-top:25px;
+	padding-left:75px;
+}
+#div_service_info_1{
+	height:inherit;
+	width:445px;
+	position:relative;
+	right:215px;
+	float:right;
+	text-align:center;
+	vertical-align:middle;
+}
+#service_pic2{
+	height:inherit;
+	width:300px;
+	position:relative;
+	float:right;
+	padding-top:25px;
+	padding-right:75px;
+}
+#div_service_info_2{
+	height:inherit;
+	width:445px;
+	position:relative;
+	float:left;
+	left:215px;
+	text-align:center;
+	vertical-align:middle;
+}

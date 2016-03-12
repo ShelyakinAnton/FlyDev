@@ -14,7 +14,7 @@
            <a href="#"><img src="img\logo.png"></a>
         </div>
         <div id="info_div">
-         <p id="info_style">г.Санкт-Петербург<br>ст. метро Площадь Восстания,<br>Невский проспект 123-А, пом. 10<br>Тел.: 8(812)900 73 28</p> 
+         <p class="info_style">г.Санкт-Петербург<br>ст. метро Площадь Восстания,<br>Невский проспект 123-А, пом. 10<br>Тел.: 8(812)900 73 28</p> 
          </div>  
      </div>
      <div id="menu_div">
@@ -35,40 +35,57 @@
               </div>
               <div id="form_div">
                   <p id="form_title">Забронировать номер</p>
-                  <form id="booking_form">
-                  <table id="form_table">
-                  	<tr class="form_tr">
-                    	<td class="form_left_col"><p class="line_p">Ваше имя:</p></td>
-                        <td class="form_right_col"><input required pattern="[А-ЯЁ][а-яё]+" placeholder="Имя" class="input_line"></td>
-                    </tr>
-                    <tr class="form_tr">
-                    	<td class="form_left_col"><p class="line_p">E-mail:</p></td>
-                        <td class="form_right_col"><input pattern="[A-Za-z0-9]+[@][a-z]+[.][a-z]+" placeholder="example@mail.ru" required class="input_line"></td>
-                    </tr>
-                    <tr class="form_tr">
-                    	<td class="form_left_col"><p class="line_p">Номер телефона:</p></td>
-                        <td class="form_right_col"><input required pattern="[+][7][0-9]{10}" placeholder="+79991112233" class="input_line"></td>
-                    </tr>
-                    <tr class="form_tr">
-                    	<td class="form_left_col"><p class="line_p">Время пребывания:</p></td>
-                        <td class="form_right_col"><input required type="number" min="1" max="30" value="1" class="input_line"></td>
-                    </tr>
-					<tr class="form_tr">
-                    	<td class="form_left_col"><p class="line_p">Кол-во гостей:</p></td>
-                        <td class="form_right_col"><input type="number" min="1" max="4" value="1" required class="input_line"></td>	
-                    </tr>
-                    <tr class="form_tr">
-                    	<td class="form_left_col"><p class="line_p">Дата заезда:</p></td>
-                        <td class="form_right_col"><input type="date" required class="input_line"></td>	
-                    </tr>
-                    <tr class="form_tr">
-                    	<td class="form_left_col"><p class="line_p">Время заезда:</p></td>
-                        <td class="form_right_col"><input type="time" required class="input_line"></td>	
-                    </tr>
-                 </table>
+                  <form>
+                  <div id="booking_2_div">
+                  
+    				<ul id="booking_ul">
+                    	<li>
+                        	<div class="form_sector">
+                            	<div class="text_line"><p class="line_p">Ваше имя:</p></div>
+                                <div class="input_line"><input required class="input"></div>
+                             </div>
+                         </li>
+                         <li>
+                        	<div class="form_sector">
+                            	<div class="text_line"><p class="line_p">E-mail</p></div>
+                                <div class="input_line"><input required class="input"></div>
+                             </div>
+                         </li>    
+                         <li>
+                        	<div class="form_sector">
+                            	<div class="text_line"><p class="line_p">Номер телефона:</p></div>
+                                <div class="input_line"><input required class="input"></div>
+                             </div>
+                         </li>    
+                         <li>
+                        	<div class="form_sector">
+                            	<div class="text_line"><p class="line_p">Время проживания:</p></div>
+                                <div class="input_line"><input required class="input"></div>
+                             </div>
+                         </li>    
+                         <li>
+                        	<div class="form_sector">
+                            	<div class="text_line"><p class="line_p">Кол-во гостей:</p></div>
+                                <div class="input_line"><input required class="input"></div>
+                             </div>
+                         </li>    
+                         <li>
+                        	<div class="form_sector">
+                            	<div class="text_line"><p class="line_p">Дата заселения:</p></div>
+                                <div class="input_line"><input required class="input"></div>
+                             </div>
+                         </li>    
+                         <li>
+                        	<div class="form_sector">
+                            	<div class="text_line"><p class="line_p">Время заселения:</p></div>
+                                <div class="input_line"><input required class="input"></div>
+                             </div>
+                         </li>    
+                         </ul>    
+                         </div>  
                  <p id="wishes" class="line_p">Особые пожелания:</p>
                  <div id="wishes_div">
-                 <input placeholder="Скажите нам что-то интересное" id="wishes_input">
+                 <textarea placeholder="Скажите нам что-то интересное" id="wishes_input"></textarea>
                  </div>
                  <div id="but_div">
                  <div id="clear_span">
@@ -98,7 +115,7 @@
 	       	   <iframe id="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.109349532215!2d30.365038315511786!3d59.930327669731824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631bb84be07ad%3A0x17efb2d4d20c496e!2z0J3QtdCy0YHQutC40Lkg0L_RgC4sIDEzMiwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5MTAzNg!5e0!3m2!1sru!2sru!4v1457786720113" allowfullscreen></iframe>
 		   </li>
 		   <li>
-			   <p id="info_style">г.Санкт-Петербург<br>ст. метро Площадь Восстания,<br>Невский проспект 123-А, пом. 10<br>Тел.: 8(812)900 73 28<br></p> 
+			   <p class="info_style">г.Санкт-Петербург<br>ст. метро Площадь Восстания,<br>Невский проспект 123-А, пом. 10<br>Тел.: 8(812)900 73 28<br></p> 
 			   <img src="img/decor.png">
 		   </li>
 		 </ul>

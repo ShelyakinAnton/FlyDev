@@ -3,65 +3,43 @@
 	font-size:24px;
 	color:#6e272f;
 	text-align:center;
-	margin-top:10px;
+	margin-top:25px;
 }
 
-#form_table{
-	width:inherit;
-	height:301px;
-	border:none;
-}
-
-.form_left_col{
-	width:153px;
-	height:43px;
-	padding-left:17px;
-}
 
 .line_p{
 	color:#6e272f;
 	font-family:'MyriadProR';
 	font-size:16px;
-}
-
-.form_right_col{
-	width:148px;
-	padding-left:0;
-	padding-right:10px;
-	height:43px;
-}
-
-.input_line{
-	widht:147px;
-	height:28px;
-	color:#6e272f;
-	font-size:15px;
-}
-
-#wishes{
-	margin-top:5px;
 	padding-left:18px;
 }
 
+
+
+#wishes{
+	margin-top:0;
+}
+
 #wishes_div{
-	top:14px;
 	width:inherit;
 	height:192px;
 }
 
 #wishes_input{
 	height:inherit;
-	width:280px;
-	margin-left:15px;
-	margin-top:14px;
+	width:282px;
+	margin-left:18px;
+	margin-top:11px;
 	color:#6e272f;
 	font-size:15px;
+	resize:none;
+	outline:none;
 }
 
 #but_div{
 	width:inherit;
 	height:28px;
-	margin-top:25px;
+	margin-top:20px;
 }
 
 #clear_span{
@@ -74,7 +52,7 @@
 #send_span{
 	width:85px;
 	height:inherit;
-	margin-right:14px;
+	margin-right:10px;
 	float:right;
 }
 
@@ -85,6 +63,48 @@
 	color:#6e272f;
 	font-family:'MyriadProR';
 	font-size:15px;
+	outline:none;
 }
-	
+
+#booking_2_div{
+	margin-top:14px;
+	position:relative;
+	width:inherit;
+	height:301px;
+}
+
+#booking_ul{
+	width:inherit;
+	height:inherit;
+	position:relative;
+	list-style-type:none;
+}
+
+.form_sector{
+	width:inherit;
+	height:40px;
+	position:relative;
+}
+
+.text_line{
+	width:163px;
+	height:inherit;
+	position:relative;
+	float:left;
+	vertical-align:middle;
+}
+
+.input_line{
+	width:147px;
+	height:inherit;
+	vertical-align:middle;
+	padding-right:10px;
+	float:right;
+}
+
+.input{
+	width:137px;
+	height:27px;
+	outline:none;
+}
 	

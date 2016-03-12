@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>Гостевой дом "Венеция"</title>
 <link href="style.css" rel="stylesheet" type="text/css">
+<link href="booking.css" rel="stylesheet" type="text/css">
 </head>
 
 <body id="background">
@@ -33,7 +34,51 @@
                   Слайдер
               </div>
               <div id="form_div">
-                  Форма
+                  <p id="form_title">Забронировать номер</p>
+                  <form id="booking_form">
+                  <table id="form_table">
+                  	<tr class="form_tr">
+                    	<td class="form_left_col"><p class="line_p">Ваше имя:</p></td>
+                        <td class="form_right_col"><input required pattern="[А-ЯЁ][а-яё]+" placeholder="Имя" class="input_line"></td>
+                    </tr>
+                    <tr class="form_tr">
+                    	<td class="form_left_col"><p class="line_p">E-mail:</p></td>
+                        <td class="form_right_col"><input pattern="[A-Za-z0-9]+[@][a-z]+[.][a-z]+" placeholder="example@mail.ru" required class="input_line"></td>
+                    </tr>
+                    <tr class="form_tr">
+                    	<td class="form_left_col"><p class="line_p">Номер телефона:</p></td>
+                        <td class="form_right_col"><input required pattern="[+][7][0-9]{10}" placeholder="+79991112233" class="input_line"></td>
+                    </tr>
+                    <tr class="form_tr">
+                    	<td class="form_left_col"><p class="line_p">Время пребывания:</p></td>
+                        <td class="form_right_col"><input required type="number" min="1" max="30" value="1" class="input_line"></td>
+                    </tr>
+					<tr class="form_tr">
+                    	<td class="form_left_col"><p class="line_p">Кол-во гостей:</p></td>
+                        <td class="form_right_col"><input type="number" min="1" max="4" value="1" required class="input_line"></td>	
+                    </tr>
+                    <tr class="form_tr">
+                    	<td class="form_left_col"><p class="line_p">Дата заезда:</p></td>
+                        <td class="form_right_col"><input type="date" required class="input_line"></td>	
+                    </tr>
+                    <tr class="form_tr">
+                    	<td class="form_left_col"><p class="line_p">Время заезда:</p></td>
+                        <td class="form_right_col"><input type="time" required class="input_line"></td>	
+                    </tr>
+                 </table>
+                 <p id="wishes" class="line_p">Особые пожелания:</p>
+                 <div id="wishes_div">
+                 <input placeholder="Скажите нам что-то интересное" id="wishes_input">
+                 </div>
+                 <div id="but_div">
+                 <div id="clear_span">
+                 <p><input type="button" value="Очистить" class="booking_but" id="clear"></p>
+                 </div>
+                 <div id="send_span">
+                 <p><input type="submit" value="Отправить" class="booking_but" id="send"></p>
+                 </div>
+                 </div>
+                 </form>
               </div>
           </div>
       </div>

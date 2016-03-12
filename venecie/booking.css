@@ -1,0 +1,90 @@
+#form_title{
+	font-family:'MyriadProR';
+	font-size:24px;
+	color:#6e272f;
+	text-align:center;
+	margin-top:10px;
+}
+
+#form_table{
+	width:inherit;
+	height:301px;
+	border:none;
+}
+
+.form_left_col{
+	width:153px;
+	height:43px;
+	padding-left:17px;
+}
+
+.line_p{
+	color:#6e272f;
+	font-family:'MyriadProR';
+	font-size:16px;
+}
+
+.form_right_col{
+	width:148px;
+	padding-left:0;
+	padding-right:10px;
+	height:43px;
+}
+
+.input_line{
+	widht:147px;
+	height:28px;
+	color:#6e272f;
+	font-size:15px;
+}
+
+#wishes{
+	margin-top:5px;
+	padding-left:18px;
+}
+
+#wishes_div{
+	top:14px;
+	width:inherit;
+	height:192px;
+}
+
+#wishes_input{
+	height:inherit;
+	width:280px;
+	margin-left:15px;
+	margin-top:14px;
+	color:#6e272f;
+	font-size:15px;
+}
+
+#but_div{
+	width:inherit;
+	height:28px;
+	margin-top:25px;
+}
+
+#clear_span{
+	width:85px;
+	height:inherit;
+	margin-left:94px;
+	float:left;
+}
+
+#send_span{
+	width:85px;
+	height:inherit;
+	margin-right:14px;
+	float:right;
+}
+
+.booking_but{
+	width:85px;
+	height:28px;
+	background-color:#fff;
+	color:#6e272f;
+	font-family:'MyriadProR';
+	font-size:15px;
+}
+	
+	

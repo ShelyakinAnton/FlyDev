@@ -8,14 +8,13 @@
 
 * {
 	-moz-box-sizing: border-box;
-	
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 }	
 
 #background{
-background-color:#72242b;
+background-color:#f4deb7;
 height:auto;
 width:100%;	
 }
@@ -45,7 +44,8 @@ position:relative;
 width:260px;
 height:72px;
 float:right;
-right:21px;
+right:23px;
+top:24px;
 padding:0;
 }
 
@@ -96,22 +96,24 @@ text-align:right;
 #booking_div{
 	background-color: #ffffff;
 	width:960px;
-	height:657px;
+	height:655px;
 	margin:12px 0px 0px 0px;
 }
 
 
 #booking_1_div{
+	position:relative;
 	background-color:#373737;
 	width:940px;
-	height:637px;
-	margin:10px;
+	height:635px;
+	top:10px;
+	left:10px;
 }
 
 #slider_div{
 	position:relative;
 	width:630px;
-	height:637px;
+	height:635px;
 	float:left;
 }
 
@@ -119,6 +121,6 @@ text-align:right;
 	position:relative;
 	background-color:#f3ddb5;
 	width:310px;
-	height:637px;
+	height:635px;
 	float:right;
 }

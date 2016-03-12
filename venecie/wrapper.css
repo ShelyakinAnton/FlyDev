@@ -1,0 +1,62 @@
+.kwicks-wrapper {
+	width:inherit;
+	height:inherit;
+	overflow:hidden;
+	margin:0;
+}
+
+#pic1 {
+	left:0;
+	margin:0;
+	position:absolute;
+	overflow:hidden;
+	width:157px;
+	height:auto;
+}
+
+#pic2 {
+	left:157px;
+	margin:0;
+	position:absolute;
+	overflow:hidden;
+	width:158px;
+	height:auto;
+}
+
+#pic3 {
+	left:315px;
+	margin:0;
+	position:absolute;
+	overflow:hidden;
+	width:157px;
+	height:auto;
+}
+
+#pic4 {
+	right:0;
+	margin:0;
+	position:absolute;
+	overflow:hidden;
+	width:158px;
+	height:auto;
+}
+
+.kwicks {
+	list-style:none;
+	position:relative;
+	margin:0;
+	padding:0 !important;
+	overflow:hidden;
+	height:635px;
+	background:none;
+}
+
+.kwicks li {
+	width:60px;
+	height:635px;
+	display:block;
+	overflow:hidden;
+	padding:0 !important;
+	cursor:pointer;
+	background:none !important;
+	}

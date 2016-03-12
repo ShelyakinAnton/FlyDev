@@ -103,7 +103,7 @@ text-align:right;
 
 #booking_1_div{
 	position:relative;
-	background-color:#373737;
+	background-color:#f3ddb5;
 	width:940px;
 	height:635px;
 	top:10px;
@@ -111,6 +111,7 @@ text-align:right;
 }
 
 #slider_div{
+	background-color:#f3ddb5;
 	position:relative;
 	width:630px;
 	height:635px;

@@ -5,6 +5,9 @@
 <title>Гостевой дом "Венеция"</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 <link href="booking.css" rel="stylesheet" type="text/css">
+<link href="wrapper.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/jquery-1.6.js" ></script>
+	<script type="text/javascript" src="js/kwicks-1.5.1.pack.js" ></script>
 </head>
 
 <body id="background">
@@ -31,7 +34,23 @@
       <div id="booking_div">
           <div id="booking_1_div">
               <div id="slider_div">
-                  Слайдер
+                  <div class="kwicks-wrapper">
+		<ul class="kwicks">
+    		<li id="pic1"><img src="img/sova1.jpg"></li>
+        	<li id="pic2"><img src="img/sova2.jpg"></li>
+    	    <li id="pic3"><img src="img/sova3.jpg"></li>
+	        <li id="pic4"><img src="img/sova4.jpg"></li>
+    	</ul>
+	</div>
+	<script>
+		$(document).ready(function(){
+			$('.kwicks').kwicks({
+				max : 510,
+				spacing : 0,
+				event : 'mouseover'
+			});						   
+		})
+	</script>
               </div>
               <div id="form_div">
                   <p id="form_title">Забронировать номер</p>

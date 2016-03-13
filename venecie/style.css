@@ -78,14 +78,14 @@ text-align:right;
 	cursor:pointer;
 }
 
-.menu_td a{
+.menu_td p{
 	font-family:'MyriadProR';
 	font-size:24px;
 	color:#651b1e;
 	text-decoration:none;
 }
 
-.menu_td:hover a{
+.menu_td:hover p{
 	font-family:'MyriadProR';
 	font-size:24px;
 	color:#72242b;

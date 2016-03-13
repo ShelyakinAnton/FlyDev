@@ -1,0 +1,42 @@
+#room_head{
+	position:relative;
+	font-family:'MyriadProR';
+	color:#6e272f;
+	font-size:24px;
+	left:113px;
+	top:25px;
+	font-weight:bold;
+}
+#room_head_div{
+	width:inherit;
+	height:60px;
+	position:relative;
+}
+#room_body_div{
+	width:inherit;
+	position:relative;
+	height:380px;
+}
+#room_table{
+	width:inherit;
+	height:inherit;
+}
+.room_td{
+	width:320px;
+	height:inherit;
+	vertical-align:top;
+	padding-top:10px;
+	padding-left:34px;
+	text-align:center;
+}
+.room_pic{
+	display:block;
+}
+.room_h{
+	font-family:'MyriadProR';
+	font-style:italic;
+	font-size:22px;
+	color:#6e272f;
+	text-align:center;
+	margin-top:15px;
+}

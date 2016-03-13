@@ -33,6 +33,7 @@
 	padding-left:75px;
 }
 #div_service_info_1{
+	padding-top:25px;
 	height:inherit;
 	width:445px;
 	position:relative;
@@ -50,6 +51,7 @@
 	padding-right:75px;
 }
 #div_service_info_2{
+	padding-top:25px;
 	height:inherit;
 	width:445px;
 	position:relative;

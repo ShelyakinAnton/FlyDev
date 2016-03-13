@@ -154,6 +154,7 @@ text-align:right;
 
 #frame{
 	margin-left: 55px;
+	margin-top: 15px;
 	width: 460px;
 	height: 310px;
 	frameborder: none;
@@ -168,3 +169,19 @@ text-align:right;
 	margin-left: 223px
 }
 
+
+.text_1_class{
+	font-family:'MyriadProR';
+	color:#6e272f;
+	font-size:18px;
+	font-weight:bold;
+	align:center;
+}
+
+.text_2_class{
+	font-family:'MyriadProR';
+	color:#6e272f;
+	font-size:14px;
+	font-weight:normal;
+	align:center;
+}

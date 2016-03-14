@@ -8,8 +8,12 @@
 <link href="wrapper.css" rel="stylesheet" type="text/css">
 <link href="service.css" rel="stylesheet" type="text/css">
 <link href="room.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="tcal.css" />
+	<script type="text/javascript" src="js/tcal.js"></script> 
 	<script type="text/javascript" src="js/jquery-1.6.js" ></script>
 	<script type="text/javascript" src="js/kwicks-1.5.1.pack.js" ></script>
+</script>
+
 </head>
 
 <body id="background">
@@ -63,19 +67,19 @@
                     	<li>
                         	<div class="form_sector">
                             	<div class="text_line"><p class="line_p">Ваше имя:</p></div>
-                                <div class="input_line"><input required class="input"></div>
+                                <div class="input_line"><input required pattern="[А-ЯЁ][а-яё]+" placeholder="Имя" class="input"></div>
                              </div>
                          </li>
                          <li>
                         	<div class="form_sector">
                             	<div class="text_line"><p class="line_p">E-mail</p></div>
-                                <div class="input_line"><input required class="input"></div>
+                                <div class="input_line"><input required pattern="[A-Za-z0-9]+[@][a-z]+[.][a-z]+" placeholder="example@mail.ru" class="input"></div>
                              </div>
                          </li>    
                          <li>
                         	<div class="form_sector">
                             	<div class="text_line"><p class="line_p">Номер телефона:</p></div>
-                                <div class="input_line"><input required class="input"></div>
+                                <div class="input_line"><input required pattern="[+][7][0-9]{10}" placeholder="+79991112233" class="input"></div>
                              </div>
                          </li>    
                          <li>
@@ -93,13 +97,13 @@
                          <li>
                         	<div class="form_sector">
                             	<div class="text_line"><p class="line_p">Дата заселения:</p></div>
-                                <div class="input_line"><input required class="input"></div>
+                                <div class="input_line"><input required placeholder="01/01/2016" pattern="[01][0-9][/][012][0-9][/][23456789][0-9]{3}" type="text" name="date" class="tcal" value="" ></div>
                              </div>
                          </li>    
                          <li>
                         	<div class="form_sector">
                             	<div class="text_line"><p class="line_p">Время заселения:</p></div>
-                                <div class="input_line"><input required class="input"></div>
+                                <div class="input_line"><input required type="time" class="input"></div>
                              </div>
                          </li>    
                          </ul>    
@@ -167,8 +171,9 @@
                       +Душ в номере<br>
                       +Завтрак включен</p><br><br>
                   <p class="room_cost">2900 рублей</p>
+                  </td>
             </tr>
-
+			<tr>
               <td class="room_td">
                   <img class="room_pic" src="img/room.png">
                   <p class="room_h">Трехместный</p><br>
@@ -187,7 +192,7 @@
                       +Бесплатный завтрак</p><br><br>
                   <p class="room_cost">3500 рублей</p>
               </td>
-              </td>>
+              </tr>
           </table>
         </div>
 	  </div>

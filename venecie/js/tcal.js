@@ -5,16 +5,16 @@
 // default settins - this structure can be moved in separate file in multilangual applications
 var A_TCALCONF = {
 	'cssprefix'  : 'tcal',
-	'months'     : ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-	'weekdays'   : ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
-	'longwdays'  : ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+	'months'     : ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
+	'weekdays'   : ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
+	'longwdays'  : ['Воскресение', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'],
 	'yearscroll' : true, // show year scroller
-	'weekstart'  : 0, // first day of week: 0-Su or 1-Mo
-	'prevyear'   : 'Previous Year',
-	'nextyear'   : 'Next Year',
-	'prevmonth'  : 'Previous Month',
-	'nextmonth'  : 'Next Month',
-	'format'     : 'm/d/Y' // 'd-m-Y', Y-m-d', 'l, F jS Y'
+	'weekstart'  : 1, // first day of week: 0-Su or 1-Mo
+	'prevyear'   : 'Предыдущий год',
+	'nextyear'   : 'Следующий год',
+	'prevmonth'  : 'Предыдущий месяц',
+	'nextmonth'  : 'Следующий месяц',
+	'format'     : 'd/m/Y' // 'd-m-Y', Y-m-d', 'l, F jS Y'
 };
 
 var A_TCALTOKENS = [

@@ -58,13 +58,12 @@ text-align:right;
 }
 
 #menu_div{
-	background-color:#fff;
+	background-image: url("img/menu_background.jpg") ;
 	width:960px;
 	height:60px;
 }
 
 #menu_table{
-	background:#fff;
 	height:inherit;
 	width:inherit;
 }

@@ -64,6 +64,13 @@
 	font-family:'MyriadProR';
 	font-size:15px;
 	outline:none;
+	border:none;
+	cursor:pointer;
+}
+
+.booking_but:hover{
+	ccolor:#72242b;
+	font-weight:bold;
 }
 
 #booking_2_div{

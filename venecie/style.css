@@ -184,3 +184,20 @@ text-align:right;
 	font-weight:normal;
 	align:center;
 }
+
+#footer_div ul li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 6px;
+	margin-top: 55px;
+	font-family:'MyriadProR';
+	color:#6e272f;
+	font-size:14px;
+	font-weight:normal;
+}
+
+#foot{
+    margin-left: 35px;
+	margin-right: 620px;
+}

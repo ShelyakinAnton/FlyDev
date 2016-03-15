@@ -13,6 +13,7 @@
 	position:relative;
 }
 #room_body_div{
+	padding-top:20px;
 	width:inherit;
 	position:relative;
 	height:380px;
@@ -22,15 +23,16 @@
 	height:inherit;
 }
 .room_td{
-	width:320px;
+	width:480px;
 	height:inherit;
 	vertical-align:top;
 	padding-top:10px;
-	padding-left:125px;
 	text-align:center;
+	padding-bottom:20px;
 }
 .room_pic{
 	display:block;
+	margin-left:114px;
 }
 .room_h{
 	font-family:'MyriadProR';
@@ -57,4 +59,15 @@
 	font-style:italic;
 	float:right;
 	margin-right:34px;
+}
+#room_pad{
+	height:55px;
+}
+
+.vert_line{
+	background:url(img/room_border.jpg) right center no-repeat;
+}
+
+.gor_line{
+	background:url(img/room_border_gor.jpg) center center no-repeat;
 }

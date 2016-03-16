@@ -60,3 +60,9 @@
 	text-align:center;
 	vertical-align:middle;
 }
+
+#service_line{
+	width:inherit;
+	height:21px;
+	background:url(img/room_border_gor.jpg) center center no-repeat;
+}

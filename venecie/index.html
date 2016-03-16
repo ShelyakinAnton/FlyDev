@@ -95,15 +95,12 @@
                         	<div class="form_sector">
                             	<div class="text_line"><p class="line_p">Кол-во гостей:</p></div>
                                 <div class="input_line">
-                                	 <div id="dd1" class="wrapper-dropdown-1">
-                                        <span>1</span>
-                                        <ul class="dropdown1">
-                                            <li><a href="#">1</a></li>
-                                            <li><a href="#">2</a></li>
-                                            <li><a href="#">3</a></li>
-                                            <li><a href="#">4</a></li>
-                                        </ul>
-                                    </div>
+                                	 <select id="booking_select">
+                                     	<option class="booking_option">1</option>
+                                        <option class="booking_option">2</option>
+                                        <option class="booking_option">3</option>
+                                        <option class="booking_option">4</option>
+                                     </select>
                                 </div>
                              </div>
                          </li>    
@@ -254,52 +251,7 @@
 	  </div>
   </div>
 
-		<script type="text/javascript">
 
-			function DropDown1(el) {
-				this.dd1 = el;
-				this.placeholder = this.dd1.children('span');
-				this.opts = this.dd1.find('ul.dropdown1 > li');
-				this.val = '';
-				this.index = -1;
-				this.initEvents();
-			}
-			DropDown1.prototype = {
-				initEvents : function() {
-					var obj = this;
-
-					obj.dd1.on('click', function(event){
-						$(this).toggleClass('active');
-						return false;
-					});
-
-					obj.opts.on('click',function(){
-						var opt = $(this);
-						obj.val = opt.text();
-						obj.index = opt.index();
-						obj.placeholder.text(obj.val);
-					});
-				},
-				getValue : function() {
-					return this.val;
-				},
-				getIndex : function() {
-					return this.index;
-				}
-			}
-
-			$(function() {
-
-				var dd1 = new DropDown1( $('#dd1') );
-
-				$(document).click(function() {
-					// all dropdowns
-					$('.wrapper-dropdown-1').removeClass('active');
-				});
-
-			});
-
-		</script>
 
         <script>
             $(document).ready(function() {

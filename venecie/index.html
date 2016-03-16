@@ -63,67 +63,64 @@
               </div>
               <div id="form_div">
                   <p id="form_title">Забронировать номер</p>
-                  <form>
+                  <form action="messanger.php">
                   <div id="booking_2_div">
                   
     				<ul id="booking_ul">
                     	<li>
                         	<div class="form_sector">
                             	<div class="text_line"><p class="line_p">Ваше имя:</p></div>
-                                <div class="input_line"><input required pattern="[А-ЯЁ][а-яё]+" placeholder="Имя" class="input"></div>
+                                <div class="input_line"><input required pattern="[А-ЯЁ][а-яё]+" placeholder="Имя" class="input" name="name"></div>
                              </div>
                          </li>
                          <li>
                         	<div class="form_sector">
                             	<div class="text_line"><p class="line_p">E-mail</p></div>
-                                <div class="input_line"><input required pattern="([a-z0-9_\.\-]{1,20})@([a-z0-9\.\-]{1,20})\.([a-z]{2,4})" placeholder="example@mail.ru" class="input"></div>
+                                <div class="input_line"><input required pattern="([a-z0-9_\.\-]{1,20})@([a-z0-9\.\-]{1,20})\.([a-z]{2,4})" placeholder="example@mail.ru" class="input" name="e-mail"></div>
                              </div>
                          </li>    
                          <li>
                         	<div class="form_sector">
                             	<div class="text_line"><p class="line_p">Номер телефона:</p></div>
-                                <div class="input_line"><input required pattern="[+][7][0-9]{10}" placeholder="+79991112233" class="input"></div>
+                                <div class="input_line"><input required pattern="[+][7][0-9]{10}" placeholder="+79991112233" class="input" name="phone"></div>
                              </div>
                          </li>    
                          <li>
                         	<div class="form_sector">
                             	<div class="text_line"><p class="line_p">Время проживания:</p></div>
-                                <div class="input_line"><input required pattern="[0-9]{1,2}" placeholder="Количество дней" class="input"></div>
+                                <div class="input_line"><input required pattern="[0-9]{1,2}" placeholder="Количество дней" class="input" name="staying"></div>
                              </div>
                          </li>    
                          <li>
                         	<div class="form_sector">
                             	<div class="text_line"><p class="line_p">Кол-во гостей:</p></div>
                                 <div class="input_line">
-                                	 <div id="dd1" class="wrapper-dropdown-1">
-                                        <span>1</span>
-                                        <ul class="dropdown1">
-                                            <li><a href="#">1</a></li>
-                                            <li><a href="#">2</a></li>
-                                            <li><a href="#">3</a></li>
-                                            <li><a href="#">4</a></li>
-                                        </ul>
-                                    </div>
+                                	 <select id="booking_select">
+                                     	<option class="booking_option">1</option>
+                                        <option class="booking_option">2</option>
+                                        <option class="booking_option">3</option>
+                                        <option class="booking_option">4</option>
+                                     </select>
                                 </div>
                              </div>
                          </li>    
                          <li>
                         	<div class="form_sector">
                             	<div class="text_line"><p class="line_p">Дата заезда:</p></div>
-                                <div class="input_line"><input required placeholder="01/01/2016" pattern="[0123][0-9][/][01][0-9][/][23456789][0-9]{3}" type="text" name="date" class="tcal" value="" ></div>
+                                <div class="input_line"><input required placeholder="01/01/2016" pattern="[0123][0-9][/][01][0-9][/][23456789][0-9]{3}" type="text" name="date" class="tcal" value="" name="arrive_date" ></div>
                              </div>
                          </li>    
                          <li>
                         	<div class="form_sector">
                             	<div class="text_line"><p class="line_p">Дата выезда:</p></div>
-                                <div class="input_line"><input required placeholder="01/01/2016" pattern="[0123][0-9][/][01][0-9][/][23456789][0-9]{3}" type="text" name="date" class="tcal" value="" ></div>
+                                <div class="input_line"><input required placeholder="01/01/2016" pattern="[0123][0-9][/][01][0-9][/][23456789][0-9]{3}" type="text" name="date" class="tcal" value="" name="date_out" ></div>
                              </div>
                          </li>    
                          </ul>    
                          </div>  
                  <p id="wishes" class="line_p">Особые пожелания:</p>
                  <div id="wishes_div">
-                 <textarea placeholder="Скажите нам что-то интересное" id="wishes_input"></textarea>
+                 <textarea placeholder="Скажите нам что-то интересное" id="wishes_input" name="comments"></textarea>
                  </div>
                  <div id="but_div">
                  <div id="clear_span">
@@ -253,52 +250,7 @@
 	  </div>
   </div>
 
-		<script type="text/javascript">
 
-			function DropDown1(el) {
-				this.dd1 = el;
-				this.placeholder = this.dd1.children('span');
-				this.opts = this.dd1.find('ul.dropdown1 > li');
-				this.val = '';
-				this.index = -1;
-				this.initEvents();
-			}
-			DropDown1.prototype = {
-				initEvents : function() {
-					var obj = this;
-
-					obj.dd1.on('click', function(event){
-						$(this).toggleClass('active');
-						return false;
-					});
-
-					obj.opts.on('click',function(){
-						var opt = $(this);
-						obj.val = opt.text();
-						obj.index = opt.index();
-						obj.placeholder.text(obj.val);
-					});
-				},
-				getValue : function() {
-					return this.val;
-				},
-				getIndex : function() {
-					return this.index;
-				}
-			}
-
-			$(function() {
-
-				var dd1 = new DropDown1( $('#dd1') );
-
-				$(document).click(function() {
-					// all dropdowns
-					$('.wrapper-dropdown-1').removeClass('active');
-				});
-
-			});
-
-		</script>
 
         <script>
             $(document).ready(function() {

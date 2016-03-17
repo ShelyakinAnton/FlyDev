@@ -71,3 +71,9 @@
 .gor_line{
 	background:url(img/room_border_gor.jpg) center center no-repeat;
 }
+
+.prize_div{
+	width:inherit;
+	height:40px;
+	bottom:0;
+}

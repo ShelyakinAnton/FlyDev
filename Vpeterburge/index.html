@@ -5,9 +5,53 @@
     <title>B&B VPeterburge</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 
 </head>
 <body>
+    <div id="wrapper">
+        <div id="header">
+
+        </div>
+
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="images/1.jpg" />
+                </li>
+                <li>
+                    <img src="images/2.jpg" />
+                </li>
+                <li>
+                    <img src="images/3.jpg" />
+                </li>
+                <li>
+                    <img src="images/4.jpg" />
+                </li>
+            </ul>
+
+        </div>
+
+        <div id="menu">
+            <ul>
+                <li>
+                </li>
+                <li>
+                </li>
+                <li>
+                </li>
+                <li>
+                </li>
+            </ul>
+        </div>
+        // Can also be used with $(document).ready()
+        $(window).load(function() {
+        $('.flexslider').flexslider({
+        animation: "slide"
+        });
+        });
+
+    </div>
 
 </body>
 </html>

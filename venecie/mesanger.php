@@ -12,9 +12,9 @@ $comments=$_GET['comments'];
 
 // ----------------------------конфигурация-------------------------- // 
  
-$adminemail="duha.96@mail.ru";  // e-mail админа
+$adminemail="gordonshamuelle@gmail.com";  // e-mail админа
  
-$backurl="Z:/home/localhost/www/venece/www/index.html";  // На какую страничку переходит после отправки письма 
+$backurl="index.html";  // На какую страничку переходит после отправки письма
  
 //---------------------------------------------------------------------- // 
 
@@ -56,8 +56,8 @@ fclose($f);
  
 // Выводим сообщение пользователю 
  
-print "<script type="text/javascript">
-  location.replace("index.html");
+print "<script type='text/javascript'>
+  location.replace('index.html');
 </script>";  
 exit; 
  

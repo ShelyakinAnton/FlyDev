@@ -24,7 +24,7 @@
 }
 .room_td{
 	width:480px;
-	height:inherit;
+	height:410px;
 	vertical-align:top;
 	padding-top:10px;
 	text-align:center;
@@ -61,7 +61,7 @@
 	margin-right:34px;
 }
 #room_pad{
-	height:55px;
+	height:50px;
 }
 
 .vert_line{
@@ -76,4 +76,21 @@
 	width:inherit;
 	height:40px;
 	bottom:0;
+}
+
+.room_img{
+	width:inherit;
+	height:135px;
+}
+
+.room_info_text{
+	width:inherit;
+	height:210px;
+}
+
+.room_cost{
+	height:35px;
+	width:inherit;
+	text-align:right;
+	padding-right:20px;
 }

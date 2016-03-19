@@ -1,4 +1,6 @@
 <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+
+
 <?php
 
 $name=$_GET['name'];
@@ -24,11 +26,10 @@ $backurl="index.html";  // На какую страничку переходит после отправки письма
 // Проверяем валидность e-mail 
 
 $head='\r\nБронирование номера от: '.$name;
-//$msg'Имя: '.$name.'\r\nАдрес почты: '.$mail.'\r\nНомер телефона: '.$number.'\r\nВремя проживания: '.$time.'\r\nКоличество гостей: '.$guests.'\r\nДата заезда: '.$arrival.'\r\nДата выезда: '.$date_out.'\r\nПожелания: '$comments;
+//$msg'Имя: '.$name.'\r\nАдрес почты: '.$mail.'\r\nНомер телефона: '.$number.'\r\nВремя проживания:  '.$guests.'\r\nДата заезда: '.$arrival.'\r\nДата выезда: '.$date_out.'\r\nПожелания: '$comments;
 $msg1='Имя: '.$name;
 $msg2='|   Адрес почты: '.$mail;
 $msg3='|   Номер телефона: '.$number;
-$msg4='|   Время проживания: '.$time;
 $msg5='|   Количество гостей: '.$guests;
 $msg6='|   Дата заезда: '.$arrival;
 $msg7='|   Дата выезда: '.$out;

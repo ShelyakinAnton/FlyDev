@@ -84,13 +84,7 @@
                             	<div class="text_line"><p class="line_p">Номер телефона:</p></div>
                                 <div class="input_line"><input required pattern="[+][7][0-9]{10}" placeholder="+79991112233" class="input" name="phone"></div>
                              </div>
-                         </li>    
-                         <li>
-                        	<div class="form_sector">
-                            	<div class="text_line"><p class="line_p">Время проживания:</p></div>
-                                <div class="input_line"><input required pattern="[0-9]{1,2}" placeholder="Количество дней" class="input" name="staying"></div>
-                             </div>
-                         </li>    
+                         </li>
                          <li>
                         	<div class="form_sector">
                             	<div class="text_line"><p class="line_p">Кол-во гостей:</p></div>
@@ -103,8 +97,21 @@
                                      </select>
                                 </div>
                              </div>
-                         </li>    
-                         <li>
+                         </li>
+                        <li>
+                            <div class="form_sector">
+                                <div class="text_line"><p class="line_p">Номер:</p></div>
+                                <div class="input_line">
+                                    <select id="booking_select" name="room">
+                                        <option value="1" class="booking_option">1</option>
+                                        <option value="2" class="booking_option">2</option>
+                                        <option value="3" class="booking_option">3</option>
+                                        <option value="4" class="booking_option">4</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
                         	<div class="form_sector">
                             	<div class="text_line"><p class="line_p">Дата заезда:</p></div>
                                 <div class="input_line"><input required placeholder="01/01/2016" pattern="[0123][0-9][/][01][0-9][/][23456789][0-9]{3}" type="text" class="tcal" value="" name="out" ></div>

@@ -1,0 +1,8 @@
+[18-Mar-2016 13:59:25 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/f/fontana5/hotel-venice.ru/public_html/mesanger.php on line 59
+[18-Mar-2016 14:00:40 Europe/Moscow] PHP Notice:  Undefined index: out in /home/f/fontana5/hotel-venice.ru/public_html/mesanger.php on line 9
+[18-Mar-2016 14:00:40 Europe/Moscow] PHP Notice:  Undefined index: arrive in /home/f/fontana5/hotel-venice.ru/public_html/mesanger.php on line 10
+[18-Mar-2016 14:00:40 Europe/Moscow] PHP Notice:  Undefined variable: date in /home/f/fontana5/hotel-venice.ru/public_html/mesanger.php on line 47
+[18-Mar-2016 14:00:55 Europe/Moscow] PHP Notice:  Undefined index: out in /home/f/fontana5/hotel-venice.ru/public_html/mesanger.php on line 9
+[18-Mar-2016 14:00:55 Europe/Moscow] PHP Notice:  Undefined index: arrive in /home/f/fontana5/hotel-venice.ru/public_html/mesanger.php on line 10
+[18-Mar-2016 14:00:55 Europe/Moscow] PHP Notice:  Undefined variable: date in /home/f/fontana5/hotel-venice.ru/public_html/mesanger.php on line 47
+[18-Mar-2016 17:15:49 Europe/Moscow] PHP Parse error:  syntax error, unexpected '<' in /home/f/fontana5/hotel-venice.ru/public_html/mesanger.php on line 4

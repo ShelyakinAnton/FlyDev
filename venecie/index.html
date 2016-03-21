@@ -84,7 +84,13 @@
                             	<div class="text_line"><p class="line_p">Номер телефона:</p></div>
                                 <div class="input_line"><input required pattern="[+][7][0-9]{10}" placeholder="+79991112233" class="input" name="phone"></div>
                              </div>
-                         </li>
+                         </li>    
+                         <li>
+                        	<div class="form_sector">
+                            	<div class="text_line"><p class="line_p">Время проживания:</p></div>
+                                <div class="input_line"><input required pattern="[0-9]{1,2}" placeholder="Количество дней" class="input" name="staying"></div>
+                             </div>
+                         </li>    
                          <li>
                         	<div class="form_sector">
                             	<div class="text_line"><p class="line_p">Кол-во гостей:</p></div>
@@ -97,21 +103,8 @@
                                      </select>
                                 </div>
                              </div>
-                         </li>
-                        <li>
-                            <div class="form_sector">
-                                <div class="text_line"><p class="line_p">Номер:</p></div>
-                                <div class="input_line">
-                                    <select id="booking_select" name="room">
-                                        <option value="1" class="booking_option">1</option>
-                                        <option value="2" class="booking_option">2</option>
-                                        <option value="3" class="booking_option">3</option>
-                                        <option value="4" class="booking_option">4</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
+                         </li>    
+                         <li>
                         	<div class="form_sector">
                             	<div class="text_line"><p class="line_p">Дата заезда:</p></div>
                                 <div class="input_line"><input required placeholder="01/01/2016" pattern="[0123][0-9][/][01][0-9][/][23456789][0-9]{3}" type="text" class="tcal" value="" name="out" ></div>
@@ -183,8 +176,7 @@
                   <div class="room_info_text"><p class="room_info">
                       Просторный уютный номер. В номере<br>
                       есть все необходимое для комфортного проживания<br>
-                      (большая двухспальная кровать+доп.1-<br>
-                      спальная,плазменный тв, холодильник с мини-<br>
+                      (большая двухспальная кровать,плазменный тв, холодильник с мини-<br>
                       баром,электрический чайник и посуда  для<br>
                       приготовления чая/кофе).</p></div>
                   <div class="prize_div"><p class="room_cost">2700 рублей</p></div>
@@ -222,7 +214,8 @@
                   <div class="room_info_text"><p class="room_info">
                       Номер повышенной комфортности. Оснащен<br>
                       большой двухспальной кроватью, плазменный<br>
-                      телевизором, холодильником (с мини-баром),<br>
+                      телевизором, холодильником (с мини-баром+доп.1-<br>
+                      спальная кровать),<br>
                       электрическим чайником и посудой для<br>
                       приготовления чая/кофе. Номер располагает<br>
                       просторной ванной комнатой с душевой кабиной.<br>
@@ -254,10 +247,11 @@
 	    <p class="room_head">Местоположение</p><br>
 	     <ul>
 		   <li>
-	       	    <iframe id="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d999.5577882984745!2d30.36614865820671!3d59.93022433940123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTnCsDU1JzQ4LjgiTiAzMMKwMjInMDIuMSJF!5e0!3m2!1sru!2sru!4v1457899378768" allowfullscreen></iframe>
-		   </li>
+               <iframe id="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d999.5577882984745!2d30.36614865820671!3d59.93022433940123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTnCsDU1JzQ4LjgiTiAzMMKwMjInMDIuMSJF!5e0!3m2!1sru!2sru!4v1457899378768" allowfullscreen></iframe>
+           </li>
 		   <li>
-			   <p class="info_style">Все окна Мини-Отеля выходят на Невский проспект,<br>
+			   <p class="info_style">Все окна Гостевого дома<br>
+                   выходят на Невский проспект,<br>
                    что позволяет окунуться в чарующую атмосферу<br>
                    Санкт-Петербурга!<br><br><br><br><br><br><br><br><br>
                    <br>г.Санкт-Петербург<br>ст. метро Площадь Восстания,<br>
@@ -268,7 +262,7 @@
 	  
 	  <div id="footer_div">
           <ul>
-              <li id="foot">Мини-отель «Венеция» 2016г.<br>
+              <li id="foot">Гостевой дом «Венеция» 2016г.<br>
                   студия веб-разработки FlyDev </li>
               <li class="social"><a href="https://www.facebook.com/venice.neva.3"><img src="img/facebook.jpg" href=""></a></li>
               <li class="social"><a href="https://vk.com/id326119871"><img src="img/vk.jpg" ></a></li>

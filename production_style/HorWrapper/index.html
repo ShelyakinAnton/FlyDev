@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Wrapper</title>
+	<link href="wrapper.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/jquery-1.6.js" ></script>
+	<script type="text/javascript" src="js/kwicks-1.5.1.pack.js" ></script>
+</head>
+<body>
+	<div class="kwicks-wrapper">
+		<ul class="kwicks">
+    		<li id="pic1"><img src="img/sova1.jpg"></li>
+        	<li id="pic2"><img src="img/sova2.jpg"></li>
+    	    <li id="pic3"><img src="img/sova3.jpg"></li>
+	        <li id="pic4"><img src="img/sova4.jpg"></li>
+    	</ul>
+	</div>
+	<script>
+		$(document).ready(function(){
+			$('.kwicks').kwicks({
+				max : 640,
+				spacing : 0,
+				event : 'mouseover'
+			});						   
+		})
+	</script>
+</body>
+</html>

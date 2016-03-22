@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: 'NexaBold';
+	src: url('fonts/Nexa Bold.eot');
+	src: url('fonts/Nexa Bold.woff') format('woff'), url('fonts/Nexa Bold.ttf') format('truetype'), url('fonts/Nexa Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MyriadProR';
+	src: url('fonts/MyriadPro-Regular.eot');
+	src: url('fonts/MyriadPro-Regular.woff') format('woff'), url('fonts/MyriadPro-Regular.ttf') format('truetype'), url('fonts/MyriadPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.btnGI {
+	width:210px;
+	height:65px;
+	border:none;
+	font-family:'MyriadProR';
+	outline: none;
+	font-size:18pt;
+	padding: 15px 100px;
+	display:inline-block;
+	background: none;
+	cursor: pointer;
+	letter-spacing: 1px;
+	position:relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btnGI:after {
+	content: '';
+	position: absolute;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btnGI:before {
+	
+	font-style:normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+.icon-g:before {
+	content:"g";
+}
+
+.btnGI-1 {
+	background: #373737;
+	color:#fff;
+	border:none;
+}
+
+.btnGI-1:before {
+	position:absolute;
+	height:65px;
+	left:0;
+	top:0;
+	font-family: 'NexaBold';
+	font-size:36pt;
+	width:75px;
+}
+
+.btnGI-2:before {
+	background: #f26c4f;
+	color:#fff;
+	border:none;
+	z-index: 2;
+}
+
+.btnGI-2:after {
+	width: 20px;
+	height:20px;
+	background: #f26c4f;
+	z-index: 1;
+	margin: -10px 0 0 -10px;
+	left: 70px;
+	top: 50%;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.btnGI-2 {
+	top: 0;
+}
+
+.btnGI-2:active:after {
+	left:75px;
+}
+
+	
+
+
+
+	
+	
+	
+	

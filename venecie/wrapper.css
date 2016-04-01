@@ -53,7 +53,7 @@
 
 .kwicks li {
 	width:60px;
-	height:635px;
+	height:635px !important;
 	display:block;
 	overflow:hidden;
 	padding:0 !important;

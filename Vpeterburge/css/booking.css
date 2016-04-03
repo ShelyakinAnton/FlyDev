@@ -1,0 +1,34 @@
+.booking_header p {
+    color: #314396;
+    font-family: RobotoR;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mini_numbers {
+    position: relative;
+    width: inherit;
+    height: 160px;
+}
+
+.mini_numbers ul {
+    position: relative;
+    width: inherit;
+    height: inherit;
+    display: inline-block;
+}
+
+.mini_numbers ul li{
+    position: relative;
+    width: 234px;
+    height: inherit;
+    display: inline-block;
+}
+
+.mini_numbers ul li a{
+    position: relative;
+    width: inherit;
+    height: inherit;
+    display: block;
+    cursor: pointer;
+}

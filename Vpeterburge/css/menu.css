@@ -1,0 +1,33 @@
+#menu ul {
+    position: relative;
+    height: inherit;
+    margin: auto;
+    width: 655px;
+}
+
+#menu ul li {
+    display: inline-block;
+    position: relative;
+    height: inherit;
+    width: 160px;
+}
+
+#menu ul li a {
+    display: block;
+    text-align: center;
+    font-family: RobotoR;
+    font-size:20px;
+    color: #000000;
+    position: relative;
+    padding-top: 6px;
+    width:inherit;
+    height: inherit;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+#menu ul li a:hover{
+    color: #FFFFFF;
+    background-color: #314396;
+}
+

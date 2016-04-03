@@ -1,0 +1,48 @@
+#header ul {
+    position: relative;
+    width: inherit;
+    height: inherit;
+}
+
+#header ul li {
+    display: inline-block;
+    position: relative;
+    height: inherit;
+    vertical-align:top;
+}
+
+#header_logo {
+    width: auto;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+#header_social {
+    width:auto;
+    margin-left:55px;
+    padding-top:48px;
+}
+
+#social ul li {
+    display: inline-block;
+}
+
+#header_info {
+    width: auto;
+    padding-right: 30px;
+    padding-top: 35px;
+    float: right;
+    text-align: right;
+}
+
+#header_info_number {
+    font-family: RobotoB;
+    color: #FFFFFF;
+    font-size: 21px;
+}
+
+#header_info_info {
+    font-family: RobotoR;
+    color: #FFFFFF;
+    font-size: 14px;
+}

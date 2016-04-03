@@ -1,0 +1,38 @@
+#info_block ul {
+    position: relative;
+    width: inherit;
+    height: inherit;
+}
+
+#info_block ul li {
+    display: inline-block;
+    position: relative;
+    height: inherit;
+    vertical-align: top;
+}
+
+#info_block_text {
+    position: relative;
+    height: inherit;
+    width: 650px;
+    padding-left: 18px;
+    padding-top: 25px;
+    padding-right: 20px;
+}
+
+#info_block_text p {
+    font-family: MyriadProR;
+    font-size: 16px;
+    color: #000000;
+}
+
+#info_block_img {
+    position: relative;
+    width: 305px;
+    height: inherit;
+}
+
+#info_block_img img {
+    margin: auto;
+    margin-top: 23px;
+}

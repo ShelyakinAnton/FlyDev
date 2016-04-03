@@ -5,53 +5,124 @@
     <title>B&B VPeterburge</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/reset.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-
+    <link href="css/header.css" rel="stylesheet" type="text/css">
+    <link href="css/menu.css" rel="stylesheet" type="text/css">
+    <link href="css/booking.css" rel="stylesheet" type="text/css">
+    <link href="css/info.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div id="wrapper">
+<div id="background">
+    <div id="main_div">
         <div id="header">
-
-        </div>
-
-        <div class="flexslider">
-            <ul class="slides">
-                <li>
-                    <img src="images/1.jpg" />
+            <ul>
+                <li id="header_logo">
+                    <img src="img/logo.png">
                 </li>
-                <li>
-                    <img src="images/2.jpg" />
+                <li id="header_social">
+                    <ul id="social_ul">
+                        <li>
+                            <a href="#"><img src="img/twitter.png"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/twitter.png"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/twitter.png"></a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <img src="images/3.jpg" />
-                </li>
-                <li>
-                    <img src="images/4.jpg" />
+                <li id="header_info">
+                    <p id="header_info_number">тел.: 000-00-00</p>
+                    <p id="header_info_info">email: pupkin@vasya.com<br>
+                                            skype: vasokpup</p>
                 </li>
             </ul>
-
         </div>
-
+        <div id="flexslider">
+            Ваша реклама, мсьё!
+        </div>
         <div id="menu">
             <ul>
                 <li>
+                    <a href="#">О нас</a>
                 </li>
                 <li>
+                    <a href="#">Сервис</a>
                 </li>
                 <li>
+                    <a href="#">Номера</a>
                 </li>
                 <li>
+                    <a href="#">Наш адрес</a>
                 </li>
             </ul>
         </div>
-        // Can also be used with $(document).ready()
-        $(window).load(function() {
-        $('.flexslider').flexslider({
-        animation: "slide"
-        });
-        });
+        <div class="line"></div>
+        <div class="booking_header">
+            <p>НОМЕР</p>
+        </div>
+        <div class="mini_numbers">
+            <ul>
+                <li>
+                    <a href="#"><img src="img/1_1.png"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/1_1.png"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/1_1.png"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/1_1.png"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="booking_header">
+            <p>МЕСТО (КРОВАТЬ В ОБЩЕМ НОМЕРЕ)</p>
+        </div>
+        <div class="mini_numbers">
+            <ul>
+                <li>
+                    <a href="#"><img src="img/1_1.png"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/1_1.png"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/1_1.png"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/1_1.png"></a>
+                </li>
+            </ul>
+        </div>
+        <div id="booking_form">
 
+        </div>
+        <div class="line"></div>
+        <div id="info_block">
+            <ul>
+                <li id="info_block_text">
+                    <p>Чтобы уютно разместиться в центре Северной столицы, не нужно много платить. "Хостел
+                        в Петербурге", расположенный у метро Владимирская (Достоевская), предлагает вам
+                        условия проживания, от которых невозможно отказаться. Двери уютного общежития
+                        всегда открыты желающим переночевать, остановиться на сутки, неделю, длительный
+                        срок.<br><br>
+
+                        Создав бытовой рай гостям и жителям Санкт-Петербурга, мы размещаем группы
+                        студентов, абитуриентов, спортсменов, командировочных, рабочих, предлагаем особые
+                        условия проживания семьям, молодым парам. Хостел в Петербурге - это высокие
+                        стандарты обслуживания, уникальный вид из окон, ваша территория свободы, комфорта
+                        и безопасности. <br><br>
+
+                        Проживание в Петербурге - выбор за вами!</p>
+                </li>
+                <li id="info_block_img">
+                    <img src="img/ppl.png">
+                </li>
+            </ul>
+        </div>
     </div>
-
+</div>
 </body>
 </html>

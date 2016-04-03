@@ -1,5 +1,102 @@
-#header{
+@font-face {
+    font-family: 'RobotoR';
+    src: url('fonts/RobotoRegular/RobotoRegular.eot');
+    src: url('fonts/RobotoRegular/RobotoRegular.woff') format('woff'),
+    url('fonts/RobotoRegular/RobotoRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoB';
+    src: url('fonts/RobotoBold/RobotoBold.eot');
+    src: url('fonts/RobotoBold/RobotoBold.woff') format('woff'),
+    url('fonts/RobotoBold/RobotoBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoM';
+    src: url('fonts/RobotoMedium/RobotoMedium.eot');
+    src: url('fonts/RobotoMedium/RobotoMedium.woff') format('woff'),
+    url('fonts/RobotoMedium/RobotoMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoL';
+    src: url('fonts/RobotoLight/RobotoLight.eot');
+    src: url('fonts/RobotoLight/RobotoLight.woff') format('woff'),
+    url('fonts/RobotoLight/RobotoLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#background{
+    background-color:#FFFFFF;
+    height:auto;
+    width:100%;
+}
+
+#main_div{
+    background-color:#FFFFFF;
+    width:960px;
+    height:auto;
+    margin:0 auto;
+}
+
+#header {
+    position: relative;
+    width: inherit;
+    height: 120px;
     background-color: #314396;
-    height: 126px;
-    width: 960px;
+}
+
+#flexslider {
+    position: relative;
+    width: inherit;
+    height: 373px;
+    background-color: #49505a;
+}
+
+#menu {
+    position: relative;
+    width: inherit;
+    height: 39px;
+}
+
+.line {
+    position: relative;
+    width: inherit;
+    height: 1px;
+    border-top: solid 1px #b3b3b3;
+}
+
+.booking_header {
+    position: relative;
+    width: inherit;
+    height: 40px;
+    padding-top: 8px;
+}
+
+#booking_form {
+    position: relative;
+    width: inherit;
+    height: 147px;
+}
+
+#info_block {
+    position: relative;
+    width: inherit;
+    height: 300px;
 }

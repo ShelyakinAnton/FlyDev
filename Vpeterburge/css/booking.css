@@ -32,3 +32,120 @@
     display: block;
     cursor: pointer;
 }
+
+#dates {
+    position: relative;
+    width: inherit;
+    height: 60px;
+}
+
+#dates ul {
+    position: relative;
+    width: inherit;
+    height: inherit;
+}
+
+#dates ul li {
+    position: relative;
+    width: 477px;
+    height: inherit;
+    display: inline-block;
+    padding-left: 115px;
+    padding-top: 25px;
+}
+
+#dates ul li a {
+    color: #314396;
+    font-size: 16px;
+    font-family: RobotoR;
+}
+
+#dates ul li input {
+    margin-left: 5px;
+    padding-left: 3px;
+    width: 115px;
+    height: 22px;
+    border: solid 1px #737373;
+    color: #314396;
+    font-size: 16px;
+    font-family: RobotoR;
+}
+
+#booking_info {
+    position: relative;
+    width: inherit;
+    height: 80px;
+}
+
+#booking_text {
+    position: relative;
+    width: 479px;
+    float:left;
+    height: inherit;
+    padding-left: 115px;
+}
+
+#booking_but {
+    position: relative;
+    width: 479px;
+    float:right;
+    height: inherit;
+    padding-top: 30px;
+}
+
+#booking_text ul {
+    position: relative;
+    width: inherit;
+    height: inherit;
+}
+
+#booking_text ul li {
+    display: inline-block;
+}
+
+#booking_text ul li ul li{
+    display: list-item;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#booking_text ul li ul li a{
+    color: #314396;
+    font-size: 16px;
+    font-family: RobotoR;
+}
+
+#booking_text ul li ul li input{
+    margin-left: 16px;
+    padding-left: 3px;
+    width: 170px;
+    height: 22px;
+    border: none;
+    border-bottom: solid 1px #737373;
+    outline: none;
+    color: #314396;
+    font-size: 16px;
+    font-family: RobotoR;
+}
+
+#booking_but ul {
+    position: relative;
+    width: inherit;
+    height: inherit;
+}
+
+#booking_but ul li {
+    display: inline-block;
+}
+
+#booking_but ul li input {
+    width: 160px;
+    height: 40px;
+    color: #314396;
+    font-size: 18px;
+    font-family: RobotoB;
+    border: solid 2px #314396;
+    background: none;
+    cursor: pointer;
+    margin-left: 50px;
+}

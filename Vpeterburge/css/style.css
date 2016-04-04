@@ -34,6 +34,24 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'TBN';
+    src: url('fonts/TimeBurnerN/tbn.eot');
+    src: url('fonts/TimeBurnerN/tbn.woff') format('woff'),
+    url('fonts/TimeBurnerN/tbn.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TBB';
+    src: url('fonts/TimeBurnerB/tbb.eot');
+    src: url('fonts/TimeBurnerB/tbb.woff') format('woff'),
+    url('fonts/TimeBurnerB/tbb.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 * {
     -moz-box-sizing: border-box;
@@ -62,7 +80,7 @@
     background-color: #314396;
 }
 
-#flexslider {
+.flexslider {
     position: relative;
     width: inherit;
     height: 373px;
@@ -92,7 +110,7 @@
 #booking_form {
     position: relative;
     width: inherit;
-    height: 147px;
+    height: 155px;
 }
 
 #info_block {

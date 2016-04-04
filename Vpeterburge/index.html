@@ -11,6 +11,9 @@
     <link href="css/info.css" rel="stylesheet" type="text/css">
     <link href="css/service.css" rel="stylesheet" type="text/css">
     <link href="css/footer.css" rel="stylesheet" type="text/css">
+    <link href="css/tcal.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="js/tcal.js"></script>
 </head>
 <body>
 <div id="background">
@@ -40,8 +43,8 @@
                 </li>
             </ul>
         </div>
-        <div id="flexslider">
-            Ваша реклама, мсьё!
+        <div class="flexslider">
+
         </div>
         <div id="menu">
             <ul>
@@ -99,7 +102,60 @@
             </ul>
         </div>
         <div id="booking_form">
-
+            <form>
+                <div id="dates">
+                    <ul>
+                        <li>
+                            <a>ДАТА ЗАЕЗДА:</a><input required placeholder="01/01/2016" pattern="[0123][0-9][/][01][0-9][/][23456789][0-9]{3}" type="text" class="tcal" value="">
+                        </li>
+                        <li>
+                            <a>ДАТА ВЫЕЗДА:</a><input required placeholder="01/01/2016" pattern="[0123][0-9][/][01][0-9][/][23456789][0-9]{3}" type="text" class="tcal" value="">
+                        </li>
+                    </ul>
+                </div>
+                <div id="booking_info">
+                    <div id="booking_text">
+                        <ul>
+                            <li>
+                                <ul>
+                                    <li>
+                                        <a>ВАШЕ ИМЯ:</a>
+                                    </li>
+                                    <li>
+                                        <a>E-MAIL:</a>
+                                    </li>
+                                    <li>
+                                        <a>НОМЕР ТЕЛ.:</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li>
+                                        <input required pattern="[А-ЯЁ][а-яё]+" placeholder="Имя" class="input" name="name">
+                                    </li>
+                                    <li>
+                                        <input required pattern="[A-Za-z0-9_.-]+[@][a-z0-9.-]{1,20}[.][a-z]{2,4}" placeholder="example@mail.ru" class="input" name="e-mail">
+                                    </li>
+                                    <li>
+                                        <input required pattern="[+][7][0-9]{10}" placeholder="+79991112233" class="input" name="phone">
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="booking_but">
+                        <ul>
+                            <li>
+                                <input type="submit" value="ЗАБРОНИРОВАТЬ">
+                            </li>
+                            <li>
+                                <input type="reset" value="ОЧИСТИТЬ">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </form>
         </div>
         <div class="line"></div>
         <div id="info_block">

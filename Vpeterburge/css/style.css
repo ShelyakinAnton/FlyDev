@@ -98,5 +98,23 @@
 #info_block {
     position: relative;
     width: inherit;
-    height: 300px;
+    height: 320px;
+}
+
+#service {
+    position: relative;
+    width: inherit;
+    height: 550px;
+}
+
+#map {
+    position: relative;
+    width: inherit;
+    height: 334px;
+}
+
+#footer {
+    position: relative;
+    width: inherit;
+    height: 96px;
 }

@@ -21,14 +21,15 @@
 }
 
 #info_block_text p {
-    font-family: MyriadProR;
+    font-family: RobotoR;
     font-size: 16px;
     color: #000000;
 }
 
 #info_block_img {
     position: relative;
-    width: 305px;
+    width: 280px;
+    margin-left: 25px;
     height: inherit;
 }
 

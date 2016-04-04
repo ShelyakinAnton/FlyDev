@@ -1,0 +1,27 @@
+#h24 {
+    position: relative;
+    width: 480px;
+    height: inherit;
+    padding-left: 39px;
+    padding-top: 21px;
+    float: left;
+}
+
+#h24 img {
+    display: block;
+    float: left;
+}
+
+#flydew {
+    position: relative;
+    width: 480px;
+    height: inherit;
+    padding-right: 39px;
+    padding-top: 21px;
+    float: right;
+}
+
+#flydew img {
+    display: block;
+    float: right;
+}

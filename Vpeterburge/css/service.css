@@ -1,0 +1,54 @@
+#service ul {
+    position: relative;
+    width: inherit;
+    height: inherit;
+}
+
+#service ul li {
+    position: relative;
+    height: inherit;
+    display: inline-block;
+    width: 317px;
+}
+
+.service_img {
+    position: relative;
+    width: inherit;
+    height: 305px;
+    padding-top: 24px;
+}
+
+.service_img img {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.service_header {
+    position: relative;
+    width: inherit;
+    height: 55px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.service_header p {
+    color:#314396;
+    font-size: 15px;
+    font-family: RobotoL;
+}
+
+.service_text {
+    position: relative;
+    width: inherit;
+    height: auto;
+    text-align: center;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.service_text p {
+    color:#000000;
+    font-size: 15px;
+    font-family: RobotoR;
+}

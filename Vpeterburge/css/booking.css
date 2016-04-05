@@ -144,6 +144,7 @@
     color: #314396;
     font-size: 18px;
     font-family: RobotoB;
+    outline: none;
     border: solid 2px #314396;
     background: none;
     cursor: pointer;

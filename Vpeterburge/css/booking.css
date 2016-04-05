@@ -150,3 +150,24 @@
     cursor: pointer;
     margin-left: 50px;
 }
+
+#after_submit {
+    position: absolute;
+    width: inherit;
+    height: 155px;
+    top:0;
+    left:0;
+    z-index: 100;
+    background-color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 15px;
+    display: none;
+    opacity: 1;
+}
+
+#after_submit p {
+    font-family: RobotoR;
+    color: #314390;
+    font-size: 48px;
+}

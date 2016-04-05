@@ -14,6 +14,8 @@
     <link href="css/tcal.css" rel="stylesheet" type="text/css">
 
     <script type="text/javascript" src="js/tcal.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
 </head>
 <body>
 <div id="background">
@@ -102,7 +104,7 @@
             </ul>
         </div>
         <div id="booking_form">
-            <form>
+            <form id="form">
                 <div id="dates">
                     <ul>
                         <li>
@@ -147,7 +149,7 @@
                     <div id="booking_but">
                         <ul>
                             <li>
-                                <input type="submit" value="ЗАБРОНИРОВАТЬ">
+                                <input type="submit" id="submit" value="ЗАБРОНИРОВАТЬ">
                             </li>
                             <li>
                                 <input type="reset" value="ОЧИСТИТЬ">
@@ -155,6 +157,19 @@
                         </ul>
                     </div>
                 </div>
+                <div id="after_submit">
+                    <p>СПАСИБО, МЫ СКОРО С ВАМИ СВЯЖЕМСЯ!</p>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        $('form').submit(function(event) {
+                            event.preventDefault();
+                            $('#after_submit')
+                                .css('display', 'block')
+                                .animate({opacity: 1}, 200);
+                        });
+                    });
+                </script>
             </form>
         </div>
         <div class="line"></div>

@@ -8,12 +8,22 @@
 <link href="wrapper.css" rel="stylesheet" type="text/css">
 <link href="service.css" rel="stylesheet" type="text/css">
 <link href="room.css" rel="stylesheet" type="text/css">
+<link href="flexslider.css" rel="stylesheet" type="text/css" media="screen" />
 <link rel="stylesheet" type="text/css" href="tcal.css">
 	<script type="text/javascript" src="js/tcal.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/kwicks-1.5.1.pack.js" ></script>
 <link rel="stylesheet" href="source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
     <script type="text/javascript" src="source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <link rel="stylesheet" href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+    <link rel="stylesheet" href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+    <script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
 
 
@@ -26,7 +36,7 @@
            <a href="#"><img src="img\logo.png"></a>
         </div>
         <div id="info_div">
-         <p class="info_style">г.Санкт-Петербург<br>ст. метро Площадь Восстания,<br>Невский проспект 132, пом. 10<br>Тел.: 8(812)900 73 28</p> 
+         <p class="info_style">г. Санкт-Петербург<br>Тел.: 8 (812) 900 73 28<br>ст. метро Площадь Восстания,<br><u>Невский проспект 132, пом. 10</u><br></p>
          </div>  
      </div>
      <div id="menu_div">
@@ -140,7 +150,7 @@
 	   	<p id="service_head">Сервис</p>
         </div>
         <div id="service_body_1">
-           <div id="service_pic1"><img src="img/service.png"></div>
+           <div id="service_pic1"><img src="img/service.jpg"></div>
            <div id="div_service_info_1"><p class="text_1_class"> Удобства и услуги</p>
                                         <p class="text_2_class"><br> В каждом номере есть все необходимое<br>
                                                                  как для длительного проживания,<br>
@@ -159,124 +169,248 @@
            </div>
 	  </div>
       </div>
-	  <div id="room_div">
-	    <div id="room_head_div">
-	   	<p class="room_head">Номера</p>
-        </div>
-        <div id="room_body_div">
-          <table id="room_table">
-            <tr>
-              <td class="room_td vert_line">
+      <div id="room_div">
+          <div id="room_head_div">
+              <p class="room_head">Номера</p>
+          </div>
+          <div id="room_body_div">
+              <table id="room_table">
+                  <tr>
+                      <td class="room_td vert_line">
 
-                  <div class="room_img"><a class="fancybox-thumb" rel="fancybox-thumb" href="img/r1.jpg"  title="Эконом двухместный">
-                      <img class="room_pic" src="img/r_1.jpg">
-                  </a></div>
-                  <div class="room_img"><a class="fancybox-thumb" rel="fancybox-thumb" href="img/r1.jpg"  title="Эконом двухместный">
-                  </a></div>
-                  <div class="room_img"><a class="fancybox-thumb" rel="fancybox-thumb" href="img/r1.jpg"  title="Эконом двухместный">
-                  </a></div>
+                          <div class="room_img"><a class="fancybox-thumb" rel="fancybox-thumb" href="img/r1_2.jpg"  title="Стандарт комфорт">
+                              <a class="fancybox-thumb" rel="fancybox-thumb" href="img/r1_1.jpg"  title="Стандарт комфорт">
+                                  <a class="fancybox-thumb" rel="fancybox-thumb" href="img/r1_3.jpg"  title="Стандарт комфорт">
+                                  <a class="fancybox-thumb" rel="fancybox-thumb" href="img/r1.jpg"  title="Стандарт комфорт">
 
-                 <div class="subheader_div"><p class="room_h">Стандарт комфорт</p><br></div>
-                  <div class="room_info_text"><p class="room_info">
-                      Просторный уютный номер. В номере<br>
-                      есть все необходимое для комфортного проживания<br>
-                      (большая двухспальная кровать,плазменный тв, холодильник с мини-<br>
-                      баром,электрический чайник и посуда  для<br>
-                      приготовления чая/кофе).</p></div>
-                  <div class="prize_div"><p class="room_cost">2700 рублей</p></div>
-              </td>
-              <td class="room_td">
-                  <div class="room_img"><a class="fancybox-thumb" rel="fancybox-thumb" href="img/r2.jpg" title="Двухместный с балконом">
-                    <img class="room_pic" src="img/r_2.jpg">
-                  </a></div>
-                  <div class="room_img"><a class="fancybox-thumb" rel="fancybox-thumb" href="img/r1.jpg"  title="Эконом двухместный">
-                  </a></div>
-                  <div class="room_img"><a class="fancybox-thumb" rel="fancybox-thumb" href="img/r1.jpg"  title="Эконом двухместный">
-                  </a></div>
+                                      <img class="room_pic" src="img/r_1.jpg">
+                                  </a></a></a></a></div>
 
-                  <div class="subheader_div"><p class="room_h">Полулюкс с балконом</p><br></div>
-                  <div class="room_info_text"><p class="room_info">
-                      Номер повышенной комфортности. Оснащен<br>
-                      большой двухспальной кроватью, плазменный<br>
-                      телевизором, холодильником (с мини-баром),<br>
-                      электрическим чайником и посудой для<br>
-                      приготовления чая/кофе. Номер располагает<br>
-                      просторной ванной комнатой с душевой кабиной.<br>
-                      Отличительной особенностью данного номера<br>
-                      является балкон,оформленный в виде театральной<br>
-                      ложи и обрамленный живыми цветами, с которого<br>
-                      открывается прекрасная панорама всего Невского<br>
-                      проспекта, вплоть до Адмиралтейства.</p></div>
-                  <div class="prize_div"><p class="room_cost">5000 рублей</p></div>
-                  </td>
-            </tr>
-            <tr id="room_pad">
-                <td class="gor_line"></td>
-                <td class="gor_line"></td>
-            </tr>
-			<tr>
-              <td class="room_td vert_line">
-                  <div class="room_img"><a class="fancybox-thumb" rel="fancybox-thumb" href="img/r3.jpg" title="Трехместный двухкомнатный">
-                  <img class="room_pic" src="img/r_3.jpg">
-                      </a></div>
-                  <div class="room_img"><a class="fancybox-thumb" rel="fancybox-thumb" href="img/r1.jpg"  title="Эконом двухместный">
-                  </a></div>
-                  <div class="room_img"><a class="fancybox-thumb" rel="fancybox-thumb" href="img/r1.jpg"  title="Эконом двухместный">
-                  </a></div>
 
-                  <div class="subheader_div"><p class="room_h">Эконом двухкомнатный</p><br></div>
-                  <div class="room_info_text"><p class="room_info">
-                      Номер повышенной комфортности. Оснащен<br>
-                      большой двухспальной кроватью, плазменный<br>
-                      телевизором, холодильником (с мини-баром+доп.1-<br>
-                      спальная кровать),<br>
-                      электрическим чайником и посудой для<br>
-                      приготовления чая/кофе. Номер располагает<br>
-                      просторной ванной комнатой с душевой кабиной.<br>
-                  </p></div>
-                  <div class="prize_div"><p class="room_cost">3000 рублей</p></div>
-              </td>
-              <td class="room_td">
-                  <div class="room_img"><a class="fancybox-thumb" rel="fancybox-thumb" href="img/rb.jpg" title="Трехместный семейный">
-                  <img class="room_pic" src="img/r_4.jpg">
-                      </a></div>
-                  <div class="room_img"><a class="fancybox-thumb" rel="fancybox-thumb" href="img/r1.jpg"  title="Эконом двухместный">
-                  </a></div>
-                  <div class="room_img"><a class="fancybox-thumb" rel="fancybox-thumb" href="img/r1.jpg"  title="Эконом двухместный">
-                  </a></div>
 
-                  <div class="subheader_div"><p class="room_h">Семейный стандарт комфорт</p><br></div>
-                  <div class="room_info_text"><p class="room_info">Отличный номер для семейных путешественников.<br>
-                      Светлый, уютный с видом из окна на замечательный<br>
-                      город на Неве. В номере есть все необходимое для<br>
-                      комфортного проживания (большая двухспальная<br>
-                      кровать+доп.1-спальная,плазменный тв,<br>
-                      холодильник с мини-баром,электрический чайник и<br>
-                      посуда  для приготовления чая/кофе). Номер<br>
-                      располагает просторной ванной комнатой с душевой<br>
-                      кабиной.</p></div>
-                  <div class="prize_div"><p class="room_cost">4000 рублей</p></div>
-              </td>
-              </tr>
-          </table>
-        </div>
-	  </div>
-	  
+                          <div class="subheader_div"><p class="room_h">Стандарт комфорт</p><br></div>
+                          <div class="room_info_text"><p class="room_info">
+                              Просторный уютный номер. В номере<br>
+                              есть все необходимое для комфортного проживания<br>
+                              (большая двухспальная кровать,плазменный тв, холодильник с мини-<br>
+                              баром,электрический чайник и посуда  для<br>
+                              приготовления чая/кофе).</p></div>
+                          <div class="prize_div"><p class="room_cost">2700 рублей</p></div>
+                      </td>
+                      <td class="room_td">
+                          <div class="room_img"><a class="fancybox-thumb" rel="fancybox-thumb" href="img/r2_2.jpg" title="Двухместный с балконом">
+                              <a class="fancybox-thumb" rel="fancybox-thumb" href="img/r2_1.jpg" title="Полулюкс с балконом">
+                                  <a class="fancybox-thumb" rel="fancybox-thumb" href="img/r2.jpg" title="Полулюкс с балконом">
+                                      <img class="room_pic" src="img/r_2.jpg">
+                                  </a></a></a></div>
+
+
+                          <div class="subheader_div"><p class="room_h">Полулюкс с балконом</p><br></div>
+                          <div class="room_info_text"><p class="room_info">
+                              Номер повышенной комфортности. Оснащен<br>
+                              большой двухспальной кроватью, плазменный<br>
+                              телевизором, холодильником (с мини-баром),<br>
+                              электрическим чайником и посудой для<br>
+                              приготовления чая/кофе. Номер располагает<br>
+                              просторной ванной комнатой с душевой кабиной.<br>
+                              Отличительной особенностью данного номера<br>
+                              является балкон,оформленный в виде театральной<br>
+                              ложи и обрамленный живыми цветами, с которого<br>
+                              открывается прекрасная панорама всего Невского<br>
+                              проспекта, вплоть до Адмиралтейства.</p></div>
+                          <div class="prize_div"><p class="room_cost">5000 рублей</p></div>
+                      </td>
+                  </tr>
+                  <tr id="room_pad">
+                      <td class="gor_line"></td>
+                      <td class="gor_line"></td>
+                  </tr>
+                  <tr>
+                      <td class="room_td vert_line">
+                          <div class="room_img"><a class="fancybox-thumb" rel="fancybox-thumb" href="img/r3_1.jpg" title="Эконом двухкомнатный">
+                              <a class="fancybox-thumb" rel="fancybox-thumb" href="img/r3.jpg" title="Эконом двухкомнатный">
+                                  <img class="room_pic" src="img/r_3.jpg">
+                              </a></a></div>
+
+
+                          <div class="subheader_div"><p class="room_h">Эконом двухкомнатный</p><br></div>
+                          <div class="room_info_text"><p class="room_info">
+                              Номер повышенной комфортности. Оснащен<br>
+                              большой двухспальной кроватью, плазменный<br>
+                              телевизором, холодильником (с мини-баром+доп.1-<br>
+                              спальная кровать),<br>
+                              электрическим чайником и посудой для<br>
+                              приготовления чая/кофе. Номер располагает<br>
+                              просторной ванной комнатой с душевой кабиной.<br>
+                          </p></div>
+                          <div class="prize_div"><p class="room_cost">3000 рублей</p></div>
+                      </td>
+                      <td class="room_td">
+                          <div class="room_img"><a class="fancybox-thumb" rel="fancybox-thumb" href="img/r4_2.png" title="Семейный стандарт комфорт">
+                              <a class="fancybox-thumb" rel="fancybox-thumb" href="img/r4_1.jpg" title="Семейный стандарт комфорт">
+                                  <a class="fancybox-thumb" rel="fancybox-thumb" href="img/r4.jpg" title="Семейный стандарт комфорт">
+                                      <img class="room_pic" src="img/r_4.jpg">
+                                  </a></a></a></div><br>
+
+
+                          <div class="subheader_div"><p class="room_h">Семейный стандарт комфорт</p><br></div>
+                          <div class="room_info_text"><p class="room_info">Отличный номер для семейных путешественников.<br>
+                              Светлый, уютный с видом из окна на замечательный<br>
+                              город на Неве. В номере есть все необходимое для
+                              комфортного проживания (большая двухспальная<br>
+                              кровать+доп.1-спальная,плазменный тв,<br>
+                              холодильник с мини-баром,электрический чайник и<br>
+                              посуда  для приготовления чая/кофе). Номер<br>
+                              располагает просторной ванной комнатой с душевой<br>
+                              кабиной.</p></div>
+                          <div class="prize_div"><p class="room_cost">4000 рублей</p></div>
+                      </td>
+                  </tr>
+              </table>
+          </div>
+      </div>
+
+      <div id="guest_div">
+          <p class="room_head">Гостевая книга</p><br><br><br>
+          <ul>
+              <li>
+                  <div id="guest_box">
+                      <div class="flexslider">
+                          <ul class="slides">
+                              <li>
+                                  <p class="room_head">Анна</p><br><br>
+                                  <p class="guest_info">Отличное место! Уютно и красиво
+                                      Замечательный вай фай и вкусные
+                                      завтраки.Отличный, отзывчивый
+                                      персонал.Удобное расположение
+                                  </p>
+                              </li>
+                              <li>
+                                  <p class="room_head">Катя</p><br><br>
+                                  <p class="guest_info">Новый Мини-отель, приветливый<br>
+                                      персонал который готов решить
+                                      вопросы и сделать отдых удобным.
+                                      Простые номера- какие они
+                                      и должны быть.С/У рядом
+                                      с номером,  но индивидуальный.
+                                      Рекомендую
+                                  </p>
+                              </li>
+                              <li>
+                                  <p class="room_head">Виктор</p><br><br>
+                                  <p class="guest_info">Приветливый персонал. Отель
+                                      находится в тихом месте,
+                                      нет шума от проезжающих машин.
+                                      Чистота и порядок.
+                                      Удачное расположение, все
+                                      что нужно рядом: кафе, банки,
+                                      магазины, кинотеатр. Отдельное
+                                      спасибо мальчикам администраторам
+                                      отеля, всегда встречали и провожали,
+                                      помогали с тяжелыми чемоданами.<br>
+                                  </p>
+                              </li>
+                              <li>
+                                  <p class="room_head">Илья</p><br><br>
+                                  <p class="guest_info">Удобное расположение
+                                      Можно приходить в любое время
+                                      Спокойно смогли заселить в 6 утра
+                                      Адекватная владелица, выслушавшая
+                                      проблемы с которыми столкнулся
+                                      при проживании<br>
+                                  </p>
+                              </li>
+                              <li>
+                                  <p class="room_head">Рома</p><br><br>
+                                  <p class="guest_info">Расположение в центре, тихий дворик,
+                                      доступность метро и
+                                      достопримечательностей,
+                                      внимательный персонал отеля.
+                                      Всё как в описании<br>
+                                  </p>
+                              </li>
+                              <li>
+                                  <p class="room_head">Даниил</p><br><br>
+                                  <p class="guest_info">Для меня проживание в этом отеле
+                                      было первым опытом проживания в т
+                                      акого типа гостиницах. В принципе
+                                      мге понравилось - чисто,
+                                      отличная кровать, удобства в номере
+                                      за очень скромные деньги.<br>
+                                  </p>
+                              </li>
+                              <li>
+                                  <p class="room_head">Максим</p><br><br>
+                                  <p class="guest_info">Расположение в центре, тихий дворик,
+                                      доступность метро и
+                                      достопримечательностей,
+                                      внимательный персонал отеля.
+                                      Всё как в описании<br>
+                                  </p>
+                              </li>
+                              <li>
+                                  <p class="room_head">Алексей</p><br><br>
+                                  <p class="guest_info">Приветливое отношение,
+                                      семейная обстановка,
+                                      до ближайшего метро 4 минуты пешком.
+                                      Есть все необходимое для отдыха
+                                      и отличная возможность прогуляться
+                                      по Невскому проспекту.<br>
+                                  </p>
+                              </li>
+
+                          </ul>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div id="guest_book">
+                      <p id="wishes" class="line_p">Оставьте ваш отзыв:</p>
+                      <div id="fb_div">
+                          <textarea placeholder="Ваше мнение очень важно для нас!" id="wishes_input" name="comments"></textarea>
+                      </div>
+                      <div id="but_div">
+                          <div id="send_span">
+                              <p><input type="submit" value="Отправить" class="booking_but" id="send"></p>
+                          </div>
+                      </div>
+                  </div>
+              </li>
+          </ul>
+      </div>
+
+
+      <!-- FlexSlider -->
+      <script defer src="jquery.flexslider.js"></script>
+
+      <script type="text/javascript">
+          $(window).load(function(){
+              $('.flexslider').flexslider({
+                  animation: "slide",
+                  start: function(slider){
+                      $('body').removeClass('loading');
+                  }
+              });
+          });
+      </script>
+
 	  <div id="location_div">
 	    <p class="room_head">Местоположение</p><br>
 	     <ul>
 		   <li>
                <iframe id="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d999.5577882984745!2d30.36614865820671!3d59.93022433940123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTnCsDU1JzQ4LjgiTiAzMMKwMjInMDIuMSJF!5e0!3m2!1sru!2sru!4v1457899378768" allowfullscreen></iframe>
+
            </li>
 		   <li>
-			   <p class="info_style">Все окна Гостевого дома<br>
-                   выходят на Невский проспект,<br>
+			   <p class="info_style"> Все окна Гостевого дома<br>
+                    выходят на Невский проспект,<br>
                    что позволяет окунуться в чарующую атмосферу<br>
-                   Санкт-Петербурга!<br><br><br><br><br><br><br><br><br>
-                   <br>г.Санкт-Петербург<br>ст. метро Площадь Восстания,<br>
-                   Невский проспект 132, пом. 10<br>Тел.: 8(812)900 73 28<br></p>
+                    Санкт-Петербурга!<br><br><br><br><br><br>
+                    <br> г. Санкт-Петербург<br>ст. метро Площадь Восстания,<br>
+                     Невский проспект 132, пом. 10<br>Тел.: 8 (812) 900 73 28<br></p>
 		   </li>
 		 </ul>
+          <img id="fasad" src="img/fasad.jpg">
 	  </div>
 	  
 	  <div id="footer_div">
@@ -295,9 +429,22 @@
 
         <script>
             $(document).ready(function() {
-                $(".fancybox-thumb").fancybox();
+                $(".fancybox-thumb").fancybox({
+                    prevEffect	: 'none',
+                    nextEffect	: 'none',
+                    helpers	: {
+                        title	: {
+                            type: 'outside'
+                        },
+                        thumbs	: {
+                            width	: 50,
+                            height	: 50
+                        }
+                    }
+                });
             });
         </script>
 
 </body>
 </html>
+

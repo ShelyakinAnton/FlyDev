@@ -21,8 +21,51 @@
 .mini_numbers ul li{
     position: relative;
     width: 234px;
-    height: inherit;
+    height: 160px;
     display: inline-block;
+    overflow: visible;
+}
+
+.mini_numbers ul li input {
+    position: relative;
+    width: inherit;
+    height: inherit;
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+#oneone {
+    background: #FFFFFF url("img/1_1.png") no-repeat;
+}
+
+#onetwo {
+    background: #FFFFFF url("img/1_2.png") no-repeat;
+}
+
+#onethree {
+    background: #FFFFFF url("img/1_3.png") no-repeat;
+}
+
+#onefour {
+    background: #FFFFFF url("img/1_4.png") no-repeat;
+}
+
+#twoone {
+    background: #FFFFFF url("img/2_1.png") no-repeat;
+}
+
+#twotwo {
+    background: #FFFFFF url("img/2_2.png") no-repeat;
+}
+
+#twothree {
+    background: #FFFFFF url("img/2_3.png") no-repeat;
+}
+
+#twofour {
+    background: #FFFFFF url("img/2_4.png") no-repeat;
 }
 
 .mini_numbers ul li a{
@@ -31,6 +74,40 @@
     height: inherit;
     display: block;
     cursor: pointer;
+}
+
+.numbers {
+    position: relative;
+    width: inherit;
+    height: inherit;
+    overflow: visible;
+}
+
+.fotol {
+    position: absolute;
+    width: 604px;
+    height: 362px;
+    top: 160px;
+    left: 0;
+    z-index: 100;
+    display: none;
+    opacity: 0;
+}
+
+.fotor {
+    position: absolute;
+    width: 604px;
+    height: 362px;
+    top: 160px;
+    right: 0;
+    z-index: 100;
+    display: none;
+    opacity: 0;
+}
+
+.numbers:hover div {
+    display: block;
+    opacity: 1;
 }
 
 #dates {

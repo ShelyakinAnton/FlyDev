@@ -141,11 +141,11 @@ text-align:right;
 }
 
 #location_div{
-	height: 430px;
+	height: 710px;
 	background-color:#ffffff;
 	margin-top: 10px;
 }
-
+0
 #footer_div{
 	height: 140px;
 	background-color:#f3ddb5;
@@ -185,6 +185,7 @@ text-align:right;
 	align:center;
 }
 
+
 #footer_div ul li {
 	list-style-type: none;
 	text-decoration: none;
@@ -200,4 +201,33 @@ text-align:right;
 #foot{
     margin-left: 35px;
 	margin-right: 620px;
+}
+#guest_div{
+	height: 330px;
+	background-image: url("img/bg_guest.jpg") ;
+	margin-top: 10px;
+}
+#guest_box {
+	width: 620px;
+    margin-left: 20px;
+}
+#guest_div ul li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+}
+.guest_info{
+	margin-left: 20px;
+	color:#72242b;
+	font-size:16px;
+	line-height:19px;
+	font-style: italic;
+
+}
+#fb_div{
+	width:inherit;
+	height:124px;
+}
+#fasad{
+	margin-left: 55px;
 }

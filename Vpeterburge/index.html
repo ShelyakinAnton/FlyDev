@@ -12,6 +12,8 @@
     <link href="css/service.css" rel="stylesheet" type="text/css">
     <link href="css/footer.css" rel="stylesheet" type="text/css">
     <link href="css/tcal.css" rel="stylesheet" type="text/css">
+    <link href="css/flexslider.css" rel="stylesheet" type="text/css">
+
 
     <script type="text/javascript" src="js/tcal.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -47,7 +49,34 @@
         </div>
         <div class="flexslider">
 
+                <ul class="slides">
+                    <li>
+                        <img class="flexpic" src="img/sova.jpg">
+                    </li>
+                    <li>
+                        <img class="flexpic" src="img/sova.jpg">
+                    </li>
+                    <li>
+                        <img class="flexpic" src="img/sova.jpg">
+                    </li>
+                </ul>
+
+            <!-- FlexSlider -->
+            <script defer src="js/jquery.flexslider.js"></script>
+
+            <script type="text/javascript">
+                $(window).load(function(){
+                    $('.flexslider').flexslider({
+                        animation: "slide",
+                        start: function(slider){
+                            $('body').removeClass('loading');
+                        }
+                    });
+                });
+            </script>
         </div>
+
+
         <div id="menu">
             <ul>
                 <li>

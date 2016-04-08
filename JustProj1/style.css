@@ -274,3 +274,103 @@
     overflow: hidden;
     background: url("img/img3_2.png") no-repeat;
 }
+
+#footer_left_header {
+    position: relative;
+    width: inherit;
+    height: auto;
+    padding-left: 55px;
+    padding-top: 65px;
+    color: #FFFFFF;
+    font-size: 45px;
+}
+
+#footer_left_logo {
+    position: relative;
+    width: inherit;
+    height: auto;
+    padding-left: 55px;
+    margin-top: 250px;
+}
+
+#footer_left_logo a {
+    cursor: pointer;
+}
+
+#footer_left_info {
+    position: relative;
+    width: inherit;
+    height: auto;
+    padding-left: 55px;
+    margin-top: 25px;
+    color: #FFFFFF;
+    font-size: 45px;
+}
+
+#footer_right_header {
+    position: relative;
+    width: inherit;
+    height: auto;
+    padding-left: 55px;
+    padding-top: 65px;
+    color: #FFFFFF;
+    font-size: 45px;
+}
+
+#im_form {
+    position: relative;
+    width: inherit;
+    height: auto;
+    padding-left: 55px;
+}
+
+#im_form form ul {
+    position: relative;
+    width: inherit;
+    height: auto;
+    margin-top: 50px;
+}
+
+#im_form form ul li {
+    position: relative;
+    width: 303px;
+    height: 53px;
+    display: inline-block;
+}
+
+#im_form form ul li input{
+    position: relative;
+    width: inherit;
+    height: inherit;
+    background: none;
+    color: #FFFFFF;
+    font-family: RobotoR;
+    font-size: 17px;
+    padding-left: 25px;
+    vertical-align: center;
+    border-color: #FFFFFF;
+    border-radius: 8px;
+    border-width: 1px;
+    outline: none;
+}
+
+#otstup {
+    margin-left: 10px;
+}
+
+#form_text {
+    position: relative;
+    width: 620px;
+    height: 160px;
+    margin-top: 10px;
+    background: none;
+    color: #FFFFFF;
+    font-family: RobotoR;
+    font-size: 17px;
+    padding-left: 25px;
+    resize: none;
+    border-color: #FFFFFF;
+    border-radius: 8px;
+    border-width: 1px;
+    outline: none;
+}

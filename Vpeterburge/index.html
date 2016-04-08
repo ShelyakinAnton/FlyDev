@@ -173,7 +173,7 @@
                 })
             })
         </script>
-            
+
         </div>
         <div id="booking_form">
 
@@ -224,10 +224,18 @@
                                 <input type="submit" id="submit" value="ЗАБРОНИРОВАТЬ">
                             </li>
                             <li>
-                                <input type="reset" value="ОЧИСТИТЬ">
+                                <input id="clr" type="reset" value="ОЧИСТИТЬ">
                             </li>
                         </ul>
                     </div>
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            $('#clr').click(function() {
+                                $('.prEl').removeClass('open');
+                                $('#oneone').addClass('open');
+                            })
+                        })
+                    </script>
                 </div>
                 <div id="after_submit">
                     <p>СПАСИБО, МЫ СКОРО С ВАМИ СВЯЖЕМСЯ!</p>

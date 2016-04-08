@@ -20,7 +20,7 @@
 
 .mini_numbers ul li{
     position: relative;
-    width: 234px;
+    width: 237px;
     height: 160px;
     display: inline-block;
     overflow: visible;
@@ -247,4 +247,37 @@
     font-family: RobotoR;
     color: #314390;
     font-size: 48px;
+}
+
+
+#oneone.open {
+    background: #FFFFFF url("img/1_1p.png") no-repeat;
+}
+
+#onetwo.open {
+    background: #FFFFFF url("img/1_2p.png") no-repeat;
+}
+
+#onethree.open {
+    background: #FFFFFF url("img/1_3p.png") no-repeat;
+}
+
+#onefour.open {
+    background: #FFFFFF url("img/1_4p.png") no-repeat;
+}
+
+#twoone.open {
+    background: #FFFFFF url("img/2_1p.png") no-repeat;
+}
+
+#twotwo.open {
+    background: #FFFFFF url("img/2_2p.png") no-repeat;
+}
+
+#twothree.open {
+    background: #FFFFFF url("img/2_3p.png") no-repeat;
+}
+
+#twofour.open {
+    background: #FFFFFF url("img/2_4p.png") no-repeat;
 }

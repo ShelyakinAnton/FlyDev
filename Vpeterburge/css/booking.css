@@ -76,6 +76,14 @@
     cursor: pointer;
 }
 
+.mini_numbers ul li {
+    margin-right: 4px;
+}
+
+.mini_numbers ul :last-child {
+    margin-right: 0;
+}
+
 .numbers {
     position: relative;
     width: inherit;

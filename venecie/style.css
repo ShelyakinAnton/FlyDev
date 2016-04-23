@@ -145,7 +145,7 @@ text-align:right;
 	background-color:#ffffff;
 	margin-top: 10px;
 }
-0
+
 #footer_div{
 	height: 140px;
 	background-color:#f3ddb5;
@@ -166,6 +166,13 @@ text-align:right;
 }
 #location_div ul li img{
 	margin-left: 223px
+}
+
+#info_l{
+	position: relative;
+	width: auto;
+	height: auto;
+	margin-left: 100px;
 }
 
 

@@ -80,7 +80,7 @@
     background-color: #314396;
 }
 
-.flexslider {
+#flexslider {
     position: relative;
     width: inherit;
     height: 373px;
@@ -111,7 +111,7 @@
     position: relative;
     width: inherit;
     height: 155px;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
 }
 
 #info_block {

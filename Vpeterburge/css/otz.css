@@ -106,3 +106,25 @@
     color: #314390;
     font-size: 48px;
 }
+
+#flex2 {
+    position: relative;
+    width: inherit;
+    height: inherit;
+}
+
+.otz_text {
+    text-align: center;
+    color: #314390;
+    font-family: RobotoR;
+    font-size: 20px;
+    margin: 45px 40px 50px 40px;
+}
+
+.otz_a {
+    text-align: right;
+    margin-right: 60px;
+    color: #314390;
+    font-family: RobotoB;
+    font-size: 20px;
+}

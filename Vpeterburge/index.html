@@ -42,7 +42,7 @@
                 </li>
             </ul>
         </div>
-        <div class="flexslider">
+        <div class="flexslider" id="flexslider">
 
                 <ul class="slides">
                     <li>
@@ -237,7 +237,7 @@
                 </div>
                 <script type="text/javascript">
                     $(document).ready(function() {
-                        $('form').submit(function(event) {
+                        $('#form').submit(function(event) {
                             event.preventDefault();
                             $('#after_submit')
                                     .css('display', 'block')
@@ -333,9 +333,43 @@
         <div id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d999.6404425994697!2d30.34543030967292!3d59.92748121099423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631af1717a99f%3A0xbf2e43c02d3a6e21!2z0JHQvtC70YzRiNCw0Y8g0JzQvtGB0LrQvtCy0YHQutCw0Y8g0YPQuy4sIDEsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTEwMDI!5e0!3m2!1sru!2sru!4v1459793503049" width="960" height="334" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-        <div id="slider" style="position: relative; width: inherit; height: 160px; background-color: #1682ba;">
-            <h1>SLIDER!!!!</h1>
+        <div id="slider" style="position: relative; width: inherit; height: 300px; background-color: #1682ba; overflow: hidden;">
+            <div class="flexslider" id="flex2">
+                <ul class="slides">
+                    <li>
+                        <p class="otz_text">На этом прекрасном месте могла бы быть рыба, но я слишом ленив для копипаста. Надеюсь, что вам понравилась верстка.
+                        Землю - крестьянам, фабрики - рабочим, анализы - в народ! На этом прекрасном месте могла бы быть рыба, но я слишом ленив для копипаста. Надеюсь, что вам понравилась верстка.
+                            Землю - крестьянам, фабрики - рабочим, анализы - в народ!</p>
+                        <p class="otz_a">ТЫЖпрограммист 20 лвл</p>
+                    </li>
+                    <li>
+                        <p class="otz_text">На этом прекрасном месте могла бы быть рыба, но я слишом ленив для копипаста. Надеюсь, что вам понравилась верстка.
+                            Землю - крестьянам, фабрики - рабочим, анализы - в народ! На этом прекрасном месте могла бы быть рыба, но я слишом ленив для копипаста. Надеюсь, что вам понравилась верстка.
+                            Землю - крестьянам, фабрики - рабочим, анализы - в народ!</p>
+                        <p class="otz_a">ТЫЖпрограммист 20 лвл</p>
+                    </li>
+                    <li>
+                        <p class="otz_text">На этом прекрасном месте могла бы быть рыба, но я слишом ленив для копипаста. Надеюсь, что вам понравилась верстка.
+                            Землю - крестьянам, фабрики - рабочим, анализы - в народ! На этом прекрасном месте могла бы быть рыба, но я слишом ленив для копипаста. Надеюсь, что вам понравилась верстка.
+                            Землю - крестьянам, фабрики - рабочим, анализы - в народ!</p>
+                        <p class="otz_a">ТЫЖпрограммист 20 лвл</p>
+                    </li>
+                </ul>
 
+                <!-- FlexSlider -->
+                <script defer src="js/jquery.flexslider.js"></script>
+
+                <script type="text/javascript">
+                    $(window).load(function(){
+                        $('.flexslider').flexslider({
+                            animation: "slide",
+                            start: function(slider){
+                                $('body').removeClass('loading');
+                            }
+                        });
+                    });
+                </script>
+            </div>
         </div>
         <div id="otz_but">
             <button id="getotz" type="button">ХОЧУ ТУТ ОТОЗВАТЬСЯ!!!</button>

@@ -223,7 +223,7 @@
     display: inline-block;
 }
 
-#booking_but ul li input {
+.formb {
     display: block;
     width: 160px;
     height: 40px;
@@ -235,6 +235,11 @@
     background: none;
     cursor: pointer;
     margin-left: 50px;
+}
+
+.formb:hover{
+    background-color: #314396;
+    color: #ffffff;
 }
 
 #after_submit {

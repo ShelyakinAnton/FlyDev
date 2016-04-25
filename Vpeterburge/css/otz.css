@@ -111,6 +111,7 @@
     position: relative;
     width: inherit;
     height: inherit;
+    border: none;
 }
 
 .otz_text {

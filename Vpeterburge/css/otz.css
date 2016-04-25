@@ -1,4 +1,6 @@
 #otz_but {
+    display: block;
+    opacity:1;
     position: relative;
     width: inherit;
     height: 80px;

@@ -111,6 +111,7 @@
     position: relative;
     width: inherit;
     height: 155px;
+    background-color: #f0f0f0;
 }
 
 #info_block {

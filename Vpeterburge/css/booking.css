@@ -90,6 +90,7 @@
     width: inherit;
     height: inherit;
     overflow: visible;
+    text-align: center;
 }
 
 .fotol {
@@ -295,4 +296,16 @@
 
 #twofour.open {
     background: #FFFFFF url("img/2_4p.png") no-repeat;
+}
+
+.prEl {
+    color: #314396;
+    font-size: 45px;
+    font-family: RobotoB;
+    text-align: center;
+    padding-top: 105px;
+}
+
+.prEl.open {
+    color: #ffffff;
 }

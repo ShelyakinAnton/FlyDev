@@ -25,8 +25,23 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../veniceReload/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="3.6764705">
               <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+=======
+            <state vertical-scroll-proportion="0.6730769">
+              <caret line="350" column="44" selection-start-line="350" selection-start-column="44" selection-end-line="350" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messanger.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/messanger.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.54717">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+>>>>>>> 742b6bca5b60ccc08337b23d50bf7a1c364667c0
               <folding />
             </state>
           </provider>
@@ -68,6 +83,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/messanger.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/../veniceReload/css/header.css" />
         <option value="$PROJECT_DIR$/../veniceReload/index.html" />
@@ -116,6 +132,10 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> 742b6bca5b60ccc08337b23d50bf7a1c364667c0
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -150,7 +170,10 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> 742b6bca5b60ccc08337b23d50bf7a1c364667c0
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,6 +290,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
+<<<<<<< HEAD
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/booking.css">
+=======
+>>>>>>> 742b6bca5b60ccc08337b23d50bf7a1c364667c0
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -278,7 +312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -286,7 +319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.99498326">
           <caret line="95" column="7" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -310,8 +342,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/messanger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.54717">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
           <folding />
@@ -346,6 +387,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.90234375">
           <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+=======
+        <state vertical-scroll-proportion="0.6730769">
+          <caret line="350" column="44" selection-start-line="350" selection-start-column="44" selection-end-line="350" selection-end-column="44" />
+>>>>>>> 742b6bca5b60ccc08337b23d50bf7a1c364667c0
           <folding />
         </state>
       </provider>

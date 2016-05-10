@@ -1,0 +1,140 @@
+#bg_image
+{
+    position:relative;
+    background-image:url(images/background.jpeg);
+    height:755px;
+    width:100%;
+    background-size: cover;
+
+
+}
+#weather_div
+{
+    position:relative;
+    background-color:black;
+    color:white;
+    height:50px;
+    width:100%;
+    opacity: 0.6;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+    -khtml-opacity: 0.6;
+    -moz-opacity: 0.6;
+
+
+}
+
+#weather_table_out
+{
+    position:relative;
+    margin:0 auto;
+    width:70%;
+    height:50px;
+}
+
+#weather_table_in
+{
+    position:relative;
+    float:right;
+    height:50px;
+    color:#8c867a;
+}
+#weather_td_in
+{
+    padding-left:30px;
+}
+
+
+#main_menu_div
+{
+    position:relative;
+    background-color:black;
+    color:white;
+    height:100px;
+    width:100%;
+    opacity: 0.8;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=65);
+    -khtml-opacity: 0.8;
+    -moz-opacity: 0.8;
+
+
+}
+
+#hostels_table_out
+{
+    position:relative;
+    margin:0 auto;
+    width:70%;
+    height:100px;
+
+
+}
+
+
+#hostels_table_menu
+{
+    float:right;
+    padding-left:25px;
+}
+#hostels_table_td
+{
+    padding-left:25px;
+}
+
+#second_menu_div
+{
+    position:relative;
+    background-color:black;
+    color:white;
+    height:70px;
+    width:100%;
+    opacity: 0.6;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+    -khtml-opacity: 0.6;
+    -moz-opacity: 0.6;
+
+
+}
+
+#second_menu_table
+{
+    position:relative;
+    margin:0 auto;
+    width:70%;
+    border-collapse: collapse;
+
+
+
+
+}
+
+#second_menu_td_1
+{
+    border:1px solid #70665c;
+    align: center;
+    padding-left:0.05%;
+    padding-right:0.05%;
+    border-top:none;
+    border-bottom:none;
+}
+
+#second_menu_td
+{
+    border:1px solid #70665c;
+    align: center;
+    padding-left:0.05%;
+    padding-right:0.05%;
+    border-top:none;
+    border-left:none;
+    border-bottom:none;
+}
+
+
+/* ^^^^^^^^¬—® ◊“Œ Œ“ÕŒ—»“—ﬂ    ¿–“»Õ ≈ — “–¿’Œƒ–ŒÃŒÃ ^^^^^^^^^^^^^^^^ */
+
+
+#booking_div{
+    width:auto;
+    height:150px;
+    background-color:#1d1d1d;
+
+}

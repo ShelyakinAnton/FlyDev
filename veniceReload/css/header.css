@@ -1,0 +1,48 @@
+#header{
+    position: relative;
+    background-color: #efe6dc;
+    width: inherit;
+    height: 133px;
+    background: #efe6dc url("img/headback.png") center no-repeat;
+}
+
+#header ul{
+    position: relative;
+    width: inherit;
+    height: inherit;
+}
+
+#header ul li{
+    display: inline-block;
+}
+
+#h_logo{
+    position: relative;
+    height: inherit;
+    width: 230px;
+    padding-left: 5px;
+    padding-top: 7px;
+    left:0;
+}
+
+#h_time{
+    width: 170px;
+    position: relative;
+    height: inherit;
+    float: right;
+    padding-right: 65px;
+    padding-top: 17px;
+}
+
+#h_adr{
+    position: inherit;
+    width: 140px;
+    height: inherit;
+    margin-left: 415px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 52px;
+    color: #832231;
+    font-size: 21px;
+    font-family: Georgia;
+}

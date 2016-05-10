@@ -1,0 +1,37 @@
+#mainmenu{
+    position: relative;
+    height: 518px;
+    width: 934px;
+    margin: 13px 13px 0 13px;
+    background-color: #efe6dc;
+}
+
+#mm_menu{
+    position: relative;
+    width: inherit;
+    height: 53px;
+}
+
+#mm_menu ul{
+    position: relative;
+    width: inherit;
+    height: inherit;
+}
+
+#mm_menu ul li{
+    display: inline-block;
+    background-color: #832231;
+    position: relative;
+    height: inherit;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 17px;
+    color: #f4ede4;
+    font-size: 18px;
+    font-family: Georgia;
+    margin-right: 2px;
+}
+
+#mm_menu ul li:last-child{
+    margin-right: 0;
+}

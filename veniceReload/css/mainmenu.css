@@ -3,7 +3,7 @@
     height: 518px;
     width: 934px;
     margin: 13px 13px 0 13px;
-    background-color: #efe6dc;
+    background-color: #ffffff;
 }
 
 #mm_menu{
@@ -12,26 +12,190 @@
     height: 53px;
 }
 
-#mm_menu ul{
+#mm_menu table tr{
     position: relative;
     width: inherit;
     height: inherit;
 }
 
-#mm_menu ul li{
-    display: inline-block;
+#mm_menu table tr td{
     background-color: #832231;
     position: relative;
-    height: inherit;
+    height: 53px;
     cursor: pointer;
     text-align: center;
-    padding-top: 17px;
+    vertical-align: middle;
     color: #f4ede4;
     font-size: 18px;
     font-family: Georgia;
-    margin-right: 2px;
+    border-right: 1px #ffffff solid;
+    border-left: 1px #ffffff solid;
 }
 
-#mm_menu ul li:last-child{
-    margin-right: 0;
+#mm_menu table tr td:hover{
+    background: url("img/menuback.png");
+}
+
+#mm_menu tr td:last-child{
+    border-right: none;
+}
+
+#mm_menu tr td:first-child{
+    border-left: none;
+}
+
+#mm_about{
+    position: relative;
+    height: inherit;
+    width: 167px;
+}
+
+#mm_about:hover ul{
+    display: block;
+}
+
+#mm_numbers{
+    position: relative;
+    height: inherit;
+    width: 214px;
+}
+
+#mm_map{
+    position: relative;
+    height: inherit;
+    width: 182px;
+}
+
+#mm_booking{
+    position: relative;
+    height: inherit;
+    width: 216px;
+}
+
+#mm_cont{
+    position: relative;
+    height: inherit;
+    width: 155px;
+}
+
+#mm_photo{
+    position: relative;
+    width: inherit;
+    height: 380px;
+    background: url("img/menu.png");
+}
+
+#mm_opt{
+    position: relative;
+    width: inherit;
+    height: 85px;
+}
+
+#mm_opt table tr{
+    position: relative;
+    width: inherit;
+    height: inherit;
+}
+
+#mm_opt table tr td{
+    display: inline-block;
+    background-color: #f4ede4;
+    position: relative;
+    height: 85px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 17px;
+    color: #832231;
+    font-size: 18px;
+    font-family: Georgia;
+    border-right: 1px #ffffff solid;
+    border-left: 1px #ffffff solid;
+}
+
+#mm_opt table tr td:last-child{
+    border-right: none;
+}
+
+#mm_opt table tr td:first-child{
+    border-left: none;
+}
+
+#mm_opt table tr td:hover div{
+    display: block;
+}
+
+#mm_romant{
+    position: relative;
+    height: inherit;
+    width: 336px;
+}
+
+#mm_romant div{
+    position: absolute;
+    width: 335px;
+    height: 130px;
+    padding: 10px 9px 0 10px;
+    background-color: #f4ede4;
+    top: -130px;
+    display: none;
+}
+
+#mm_exc{
+    position: relative;
+    height: inherit;
+    width: 428px;
+}
+
+#mm_exc div{
+    position: absolute;
+    width: 426px;
+    height: 130px;
+    padding: 10px 10px 0 10px;
+    background-color: #f4ede4;
+    top: -130px;
+    display: none;
+}
+
+#mm_sale{
+    position: relative;
+    height: inherit;
+    width: 169px;
+}
+
+#mm_sale div{
+    position: absolute;
+    width: 169px;
+    height: 130px;
+    padding: 10px 9px 0 8px;
+    background-color: #f4ede4;
+    top: -130px;
+    display: none;
+}
+
+#mm_about_sub{
+    position: absolute;
+    width: 278px;
+    background: url("img/menuback.png");
+    height: 84px;
+    z-index: 50;
+    margin-top: 16px;
+    display: none;
+}
+
+
+#mm_about_sub li{
+    position: relative;
+    width: inherit;
+    height: 28px;
+    display: list-item;
+    padding-left: 27px;
+    padding-top: 4px;
+    color: #f4ede4;
+    font-size: 18px;
+    font-family: Georgia;
+    cursor: pointer;
+}
+
+#mm_about_sub li:hover{
+    background: url("img/menubackop.png");
 }

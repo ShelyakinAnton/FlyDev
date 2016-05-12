@@ -4,12 +4,14 @@
     width: 934px;
     margin: 13px 13px 0 13px;
     background-color: #ffffff;
+    margin-bottom: 15px;
 }
 
 #mm_menu{
     position: relative;
     width: inherit;
     height: 53px;
+    overflow: visible;
 }
 
 #mm_menu table tr{
@@ -19,28 +21,35 @@
 }
 
 #mm_menu table tr td{
+    display: inline-block;
     background-color: #832231;
     position: relative;
     height: 53px;
     cursor: pointer;
     text-align: center;
-    vertical-align: middle;
+    padding-top: 15px;
+}
+
+.text{
     color: #f4ede4;
     font-size: 18px;
     font-family: Georgia;
-    border-right: 1px #ffffff solid;
-    border-left: 1px #ffffff solid;
 }
 
 #mm_menu table tr td:hover{
     background: url("img/menuback.png");
 }
 
-#mm_menu tr td:last-child{
+.bord{
+    border-right: 1px #ffffff solid;
+    border-left: 1px #ffffff solid;
+}
+
+.bord:last-child{
     border-right: none;
 }
 
-#mm_menu tr td:first-child{
+.bord:first-child{
     border-left: none;
 }
 
@@ -75,14 +84,22 @@
 #mm_cont{
     position: relative;
     height: inherit;
-    width: 155px;
+    width: 154px;
 }
 
 #mm_photo{
     position: relative;
     width: inherit;
     height: 380px;
-    background: url("img/menu.png");
+    overflow: hidden;
+}
+
+#mm_photo img{
+    position: relative;
+    width: 933px;
+    overflow: hidden;
+    height: inherit;
+    float: left;
 }
 
 #mm_opt{
@@ -105,19 +122,12 @@
     cursor: pointer;
     text-align: center;
     padding-top: 17px;
+}
+
+.text2{
     color: #832231;
     font-size: 18px;
     font-family: Georgia;
-    border-right: 1px #ffffff solid;
-    border-left: 1px #ffffff solid;
-}
-
-#mm_opt table tr td:last-child{
-    border-right: none;
-}
-
-#mm_opt table tr td:first-child{
-    border-left: none;
 }
 
 #mm_opt table tr td:hover div{
@@ -136,7 +146,7 @@
     height: 130px;
     padding: 10px 9px 0 10px;
     background-color: #f4ede4;
-    top: -130px;
+    top: -129px;
     display: none;
 }
 
@@ -148,11 +158,11 @@
 
 #mm_exc div{
     position: absolute;
-    width: 426px;
+    width: 427px;
     height: 130px;
     padding: 10px 10px 0 10px;
     background-color: #f4ede4;
-    top: -130px;
+    top: -129px;
     display: none;
 }
 
@@ -168,7 +178,7 @@
     height: 130px;
     padding: 10px 9px 0 8px;
     background-color: #f4ede4;
-    top: -130px;
+    top: -129px;
     display: none;
 }
 

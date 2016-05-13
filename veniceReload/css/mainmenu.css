@@ -60,7 +60,7 @@
 }
 
 #mm_about:hover ul{
-    display: block;
+    height: 84px;
 }
 
 #mm_numbers{
@@ -131,7 +131,7 @@
 }
 
 #mm_opt table tr td:hover div{
-    display: block;
+    height: 150px;
 }
 
 #mm_romant{
@@ -143,11 +143,15 @@
 #mm_romant div{
     position: absolute;
     width: 335px;
-    height: 130px;
+    height: 0px;
     padding: 10px 9px 0 10px;
     background-color: #f4ede4;
-    top: -129px;
-    display: none;
+    bottom: 75px;
+    overflow: hidden;
+    -webkit-transition: height 0.6s ease-out;
+    -moz-transition: height 0.6s ease-out;
+    -o-transition: height 0.6s ease-out;
+    transition: height 0.6s ease-out;
 }
 
 #mm_exc{
@@ -158,12 +162,16 @@
 
 #mm_exc div{
     position: absolute;
-    width: 427px;
-    height: 130px;
-    padding: 10px 10px 0 10px;
+    width: 426px;
+    height: 0px;
+    padding: 10px 9px 0 10px;
     background-color: #f4ede4;
-    top: -129px;
-    display: none;
+    bottom: 75px;
+    overflow: hidden;
+    -webkit-transition: height 0.6s ease-out;
+    -moz-transition: height 0.6s ease-out;
+    -o-transition: height 0.6s ease-out;
+    transition: height 0.6s ease-out;
 }
 
 #mm_sale{
@@ -175,21 +183,29 @@
 #mm_sale div{
     position: absolute;
     width: 169px;
-    height: 130px;
-    padding: 10px 9px 0 8px;
+    height: 0px;
+    padding: 10px 9px 0 10px;
     background-color: #f4ede4;
-    top: -129px;
-    display: none;
+    bottom: 75px;
+    overflow: hidden;
+    -webkit-transition: height 0.6s ease-out;
+    -moz-transition: height 0.6s ease-out;
+    -o-transition: height 0.6s ease-out;
+    transition: height 0.6s ease-out;
 }
 
 #mm_about_sub{
     position: absolute;
     width: 278px;
     background: url("img/menuback.png");
-    height: 84px;
+    height: 0px;
     z-index: 50;
-    margin-top: 16px;
-    display: none;
+    top: 53px;
+    overflow: hidden;
+    -webkit-transition: height 0.6s ease-out;
+    -moz-transition: height 0.6s ease-out;
+    -o-transition: height 0.6s ease-out;
+    transition: height 0.6s ease-out;
 }
 
 
@@ -204,6 +220,8 @@
     font-size: 18px;
     font-family: Georgia;
     cursor: pointer;
+    text-align: left;
+    padding-left: 27px;
 }
 
 #mm_about_sub li:hover{

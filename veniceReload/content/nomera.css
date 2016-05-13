@@ -14,7 +14,6 @@
 .slider_div_1l{
     position:relative;
     float:left;
-    background-color:blue;
     height:250px;
     width:567px;
 
@@ -29,7 +28,6 @@
 }
 
 .slider_div_2{
-    background-color:green;
     position:relative;
     float:left;
     height:250px;
@@ -37,7 +35,6 @@
 }
 
 .slider_div_3{
-    background-color:yellow;
     position:relative;
     float:right;
     height:250px;
@@ -45,14 +42,12 @@
 }
 
 .slider_div_4{
-    background-color:grey;
     height:122px;
     width:185px;
 }
 
 .slider_div_5{
     margin-top:6px;
-    background-color:gold;
     height:122px;
     width:185px;
 }

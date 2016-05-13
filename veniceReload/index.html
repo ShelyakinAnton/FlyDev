@@ -8,6 +8,27 @@
     <link href="css/header.css" rel="stylesheet" type="text/css">
     <link href="css/mainmenu.css" rel="stylesheet" type="text/css">
     <link href="css/footer.css" rel="stylesheet" type="text/css">
+
+
+    <link rel="stylesheet" href="sldr/css/demo.css" type="text/css" media="all">
+    <script type="text/javascript" src="sldr/js/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="sldr/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="sldr/js/tms-0.4.1.js"></script>
+    <!-- demo -->
+    <script type="text/javascript" src="sldr/js/demo.js"></script>
+    <!-- end demo -->
+    <script src="sldr/js/highlight.js"></script>
+    <script src="sldr/js/html5.js"></script>
+    <script src="sldr/js/html-xml.js"></script>
+    <script src="sldr/js/css.js"></script>
+    <script src="sldr/js/javascript.js"></script>
+    <script>
+        hljs.tabReplace = '    ';
+        hljs.initHighlightingOnLoad();
+    </script>
+    <!--[if lt IE 7]>  	<link rel="stylesheet" href="css/ie/ie6.css" type="text/css" media="screen">
+    <![endif]-->  <!--[if lt IE 9]>  	<script type="text/javascript" src="js/html5.js"></script>	<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+    <![endif]-->
 </head>
 <body>
 <div id="background">
@@ -44,6 +65,16 @@
                 </table>
             </div>
             <div id="mm_photo">
+                <div class="slider">
+                    <ul class="items">
+                        <li><img src="sldr/images/slide-1.jpg" alt="" /><div class="banner"></div></li>
+                        <li><img src="sldr/images/slide-2.jpg" alt="" /><div class="banner"></div></li>
+                        <li><img src="sldr/images/slide-3.jpg" alt="" /><div class="banner"></div></li>
+                    </ul>
+                </div>
+                <a href="#" class="prev">&lt;</a>
+                <a href="#" class="play"><em>stop</em><span>play</span></a>
+                <a href="#" class="next">&gt;</a>
             </div>
 
             <div id="mm_opt">

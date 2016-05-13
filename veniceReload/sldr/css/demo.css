@@ -1,0 +1,31 @@
+#main {
+	min-height:100%;
+	margin: 0 auto;
+	position: relative;
+	width: 980px;
+	font-size:.8125em;
+	}
+
+
+ul {
+	list-style-type:square;
+	list-style-position:outside;
+	}
+#slide { height:380px; width:933px; position:relative; overflow:hidden; z-index:2}
+
+.slider {
+	width:933px;
+	margin:0 auto;
+	position:relative;
+	z-index:2
+}
+.items {
+	display:none;
+}
+
+
+
+/*-------- end slider -----------*/
+
+
+

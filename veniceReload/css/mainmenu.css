@@ -2,9 +2,8 @@
     position: relative;
     height: 518px;
     width: 934px;
-    margin: 13px 13px 0 13px;
+    margin: 13px 13px 15px 13px;
     background-color: #ffffff;
-    margin-bottom: 15px;
 }
 
 #mm_menu{
@@ -89,9 +88,10 @@
 
 #mm_photo{
     position: relative;
-    width: inherit;
+    width: 933px;
     height: 380px;
     overflow: hidden;
+    background: url("img/menu.png");
 }
 
 #mm_photo img{

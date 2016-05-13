@@ -14,7 +14,7 @@
 
 .paragraph_class{
     font-family:georgia;
-    font-size:10px;
+    font-size:16px;
     color:#832231;
     margin-top:14px;
     line-height:1.5;
@@ -22,17 +22,16 @@
 
 .paragraph_class_1{
     font-family:georgia;
-    font-size:10px;
+    font-size:16px;
     color:#832231;
     line-height:1.5;
 }
 .form_p{
     font-family:georgia;
-    font-size:10px;
+    font-size:16px;
     color:#832231;
     margin-top:13px;
-    margin-bottom:13px;
-
+    margin-bottom:7px;
 }
 
 #form_input_1{
@@ -42,6 +41,8 @@
     font-family:georgia;
     font-size:18px;
     color:#832231;
+    padding-left: 7px;
+    outline: none;
 }
 
 #form_input_2{
@@ -51,16 +52,21 @@
     font-family:georgia;
     font-size:18px;
     color:#832231;
+    padding-left: 7px;
+    outline: none;
 }
 
 #form_input_3{
     height:115px;
     width:320px;
     border:1px solid #832231;
-    font-family:georgia;
-    font-size:18px;
+    font-family: Georgia;
+    font-size:16px;
     color:#832231;
     resize: none;
+    padding-left: 7px;
+    padding-top: 5px;
+    outline: none;
 }
 #div_s_kartoi{
     position:relative;
@@ -90,3 +96,22 @@ a.knopka {
 }
 a.knopka:hover { color:#c01a34; } /* ��� ��������� ������� ����� */
 a.knopka:active { color:#c01a34; } /* ��� ������� */
+
+
+#kartinka img{
+    position: relative;
+    float: left;
+    margin-top: 20px;
+}
+
+#cont_social{
+    position: relative;
+    width: inherit;
+    height: auto;
+}
+
+#cont_insta{
+    position: relative;
+    width: 135px;
+    height: auto;
+}

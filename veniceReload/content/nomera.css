@@ -5,12 +5,10 @@
 
 }
 .nomer_div{
-    margin-top:17px;
     margin: 0 auto;
     width:937px;
     height:250px;
     background-color:#ffffff;
-    padding-top:30px;
 }
 
 .slider_div_1l{
@@ -81,21 +79,20 @@
 }
 
 .info_p_header{
-    font-size:15px;
-    font-style:bold;
+    font-size:16px;
+    font-weight: 800;
 
 }
 .info_p{
     margin-top:18px;
-    font-size:8px;
+    font-size:14px;
 }
 
 
 .bord{
-    margin-top:17px;
-    margin:0 auto;
+    margin:17px auto;
     border:none;
     background-color:#832231;
-    height:1px;
+    height:2px;
     width:222px;
 }

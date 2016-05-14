@@ -6,7 +6,7 @@
 }
 
 #background{
-    background-color:#efe6dc;
+    background: url("img/fon.jpg");
     height:auto;
     width:100%;
 }

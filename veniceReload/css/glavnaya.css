@@ -1,0 +1,27 @@
+#vidgets_div{
+    position:relative;
+    float:left;
+    width:295px;
+}
+#text_div{
+    position:relative;
+    float:right;
+    width:635px;
+    background-color:#ffffff;
+    font-family:georgia;
+    font-size:17px;
+    color:#832231;
+    padding-right: 13px;
+}
+
+#img_style{
+    width:285px;
+    margin:0 auto;
+    margin-top:10px;
+}
+
+
+#razvod_div{
+    width:700px;
+    margin:0 auto;
+}

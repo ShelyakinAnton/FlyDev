@@ -38,3 +38,11 @@ td a{
     padding-right: 16px;
 }
 
+#contents{
+    position: relative;
+    width: 960px;
+    height: 470px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+

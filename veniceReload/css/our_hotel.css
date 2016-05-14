@@ -1,0 +1,25 @@
+#info_div{
+    width:940px;
+    margin:0 auto;
+    text-align:center;
+}
+#p1_class{
+    margin-top:35px;
+    font-family:georgia;
+    font-size:25px;
+    color:#832231;
+}
+
+.p2_class{
+    margin-top:40px;
+    font-family:georgia;
+    font-size:17px;
+    color:#832231;
+}
+
+#a_class{
+    font-family:georgia;
+    font-size:17px;
+    color:#832231;
+
+}

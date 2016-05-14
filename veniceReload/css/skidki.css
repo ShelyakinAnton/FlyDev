@@ -1,12 +1,6 @@
-#main_div{
-    width: 940px;
-    height:auto;
-    margin: 0 auto;
-}
-
 
 #text_div{
-    margin-top:110px;
+    margin-top:40px;
     position:relative;
     float:left;
     width:444px;
@@ -17,7 +11,7 @@
 }
 
 #image_div{
-    margin-top:110px;
+    margin-top:40px;
     position:relative;
     float:right;
     width:452px;
@@ -34,7 +28,7 @@
     margin-top: 10px;
 }
 
-td, th{
+#table_style tr td{
     border: 1px #832231 solid;
 }
 

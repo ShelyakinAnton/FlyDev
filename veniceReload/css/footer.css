@@ -1,8 +1,8 @@
 #footer{
-    position: relative;
     height: 195px;
     width: inherit;
     background: url("img/footerback.png");
+    float: none;
 }
 
 #footer1{

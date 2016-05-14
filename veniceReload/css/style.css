@@ -24,3 +24,17 @@ td a{
     height: 100%;
 }
 
+.content{
+    position: relative;
+    width: 960px;
+    height: auto;
+}
+
+#contentc{
+    position: relative;
+    width: 960px;
+    height: 630px;
+    margin: 0 auto;
+    padding-right: 16px;
+}
+

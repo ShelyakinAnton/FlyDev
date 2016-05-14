@@ -38,11 +38,30 @@
     position: inherit;
     width: 140px;
     height: inherit;
-    margin-left: 415px;
     text-align: center;
-    vertical-align: middle;
+    top: -30px;
     margin-bottom: 52px;
     color: #832231;
     font-size: 21px;
     font-family: Georgia;
+}
+
+#h_phone{
+    position: relative;
+    width: 310px;
+    height: inherit;
+    text-align: center;
+    margin-bottom: 52px;
+    margin-left: 80px;
+    top: -30px;
+    color: #832231;
+    font-size: 21px;
+    font-family: Georgia;
+}
+
+#h_phone p a{
+    color: #832231;
+    font-size: 21px;
+    font-family: Georgia;
+    text-decoration: underline;
 }

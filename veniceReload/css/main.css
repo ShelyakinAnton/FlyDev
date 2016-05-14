@@ -1,0 +1,58 @@
+#information_div{
+    margin: 0 auto;
+    width:960px;
+    height:auto;
+    background-color:#ffffff;
+    text-align:center;
+    color:#8b313f;
+    font-family:georgia;
+    padding-top:30px;
+}
+
+
+#p_header{
+  font-size:20px;
+}
+
+#p_info{
+    font-size:16px;
+    margin-top:35px;
+}
+
+#p_info2{
+    font-size:16px;
+    margin-top:35px;
+    margin-bottom:32px;
+}
+
+#a_style{
+    color:#8b313f;
+    font-family:georgia;
+}
+
+#table_style{
+    width:880px;
+    margin: 0 auto;
+    border:35px;
+    text-align:center;
+    font-size:10px;
+    color:#8b313f;
+    font-family:georgia;
+
+}
+
+.table_td_style{
+    width:270px;
+    padding-bottom:13px;
+}
+
+.table_p_header{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:16px;
+}
+
+.table_p_info{
+    margin-bottom:12px;
+    font-size:13px;
+}

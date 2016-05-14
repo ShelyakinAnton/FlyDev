@@ -8,6 +8,7 @@
     <link href="css/header.css" rel="stylesheet" type="text/css">
     <link href="css/mainmenu.css" rel="stylesheet" type="text/css">
     <link href="css/footer.css" rel="stylesheet" type="text/css">
+    <link href="css/contacts.css" rel="stylesheet" type="text/css">
 
 
     <link rel="stylesheet" href="sldr/css/demo.css" type="text/css" media="all">
@@ -36,21 +37,21 @@
         <div id="header">
             <ul>
                 <li id="h_logo">
-                    <a href="index.html"><img src="img/logo.png"></a>
+                    <a href="index.html"><img src="content/img/logo.png"></a>
                 </li>
                 <li id="h_phone">
                     <p>ТЕЛЕФОН БРОНИРОВАНИЯ<br>
-                    8(800)235-55-35<br>
-                    <a href="#">Хочу обратный звонок</a></p>
+                        8(800)235-55-35<br>
+                        <a href="#">Хочу обратный звонок</a></p>
                 </li>
                 <li id="h_adr">
                     <p>НАШ АДРЕС:<br>НЕВСКИЙ<br>132, пом. 10</p>
                 </li>
                 <li id="h_time">
-                    <img src="img/24.png">
+                    <img src="content/img/24.png">
                 </li>
             </ul>
-            </div>
+        </div>
         <div id="mainmenu">
             <div id="mm_menu">
                 <table>
@@ -62,10 +63,10 @@
                                 <li><a href="#"><p class="text">ОТЗЫВЫ</p></a></li>
                             </ul>
 
-                        <td class="mm_bord" id="mm_numbers"><a href="numbers.html"><p class="text">НОМЕРА И ЦЕНЫ</p></a>
+                        <td class="mm_bord" id="mm_numbers"><a href="#"><p class="text">НОМЕРА И ЦЕНЫ</p></a>
                         <td class="mm_bord" id="mm_map"><a href="#"><p class="text">МЫ НА КАРТЕ</p></a>
                         <td class="mm_bord" id="mm_booking"><a href="#"><p class="text">БРОНИРОВАНИЕ</p></a>
-                        <td class="mm_bord" id="mm_cont"><a href="contact.html"><p class="text">КОНТАКТЫ</p></a>
+                        <td class="mm_bord" id="mm_cont"><a href="content/contacts.html"><p class="text">КОНТАКТЫ</p></a>
                     </tr>
                 </table>
             </div>
@@ -88,21 +89,21 @@
                         <td class="mm_bord" id="mm_romant"><a href="#">
                             <p class="text2">РОМАНТИЧЕСКИЙ ВЕЧЕР<br>ДЛЯ ДВОИХ</p></a>
                             <div>
-                                <img src="img/heart.png">
+                                <img src="content/img/heart.png">
                             </div>
 
 
 
-                        <td class="mm_bord" id="mm_exc"><a href="excursion.html">
-                        <p class="text2">ЭКСКУРСИИ ПО САНКТ-ПЕТЕРБУРГУ<br>И ОБЛАСТИ</p></a>
+                        <td class="mm_bord" id="mm_exc"><a href="#">
+                            <p class="text2">ЭКСКУРСИИ ПО САНКТ-ПЕТЕРБУРГУ<br>И ОБЛАСТИ</p></a>
                             <div>
-                                <img src="img/bus.png">
+                                <img src="content/img/bus.png">
                             </div>
 
                         <td class="mm_bord" id="mm_sale"><a href="#">
-                        <p class="text2">СКИДКИ<br>%</p></a>
+                            <p class="text2">СКИДКИ<br>%</p></a>
                             <div>
-                                <img src="img/present.png">
+                                <img src="content/img/present.png">
                             </div>
 
                     </tr>
@@ -110,8 +111,39 @@
             </div>
         </div>
 
-        <div class="content" style="background-color: aquamarine; text-align: center; font-size: 100px; font-family: 'AR DECODE'">
-            <p>LET's<br>MAKE<br>THE F***IN<br>CONTENT!</p>
+        <div id="contentc">
+            <div id="contacts_div">
+                <p class="paragraph_class">Телефон: 8(800)235-55-35<br>
+                    Skype: SuperPupkin<br>
+                    Электропочта: vasjapupkin@mail.ru</p>
+                <p class="paragraph_class">г. Санкт-Петербург<br>
+                    ст. метро Площадь Восстания,<br>
+                    Невский проспект 132, пом. 10</p>
+                <p class="paragraph_class">Мы в социальных сетях:</p>
+                <table id="cont_social">
+                    <tr>
+                        <td id="cont_insta"><a href="#"><img src="img/instagram.png"></a>
+                        <td id="cont_vk"><a href="#"><img src="img/vk.png"></a>
+                    </tr>
+                </table>
+                <form>
+                    <p class="form_p">Напишите нам ваш номер<br>
+                        и мы вам перезвоним:</p>
+                    <input type="text" id="form_input_1" placeholder="0(000)000-00-00">
+                    <p class="form_p">Ваше имя:</p>
+                    <input type="text" id="form_input_2" placeholder="Вася">
+                    <p class="form_p">Комментарии:</p>
+                    <textarea id="form_input_3"></textarea>
+                    <div id="button_div"><a href="#" class="knopka">ОТПРАВИТЬ ЗАЯВКУ</a></div>
+                </form>
+            </div>
+            <div id="div_s_kartoi">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.1398019570806!2d30.368428627834696!3d59.92982234890191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631bb84be07ad%3A0x17efb2d4d20c496e!2z0J3QtdCy0YHQutC40Lkg0L_RgC4sIDEzMiwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5MTAzNg!5e0!3m2!1sru!2sru!4v1463151437565"
+                        width="455" height="235" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div id="kartinka">
+                    <img src="img/place.png">
+                </div>
+            </div>
         </div>
         <div id="footer">
             <div id="footer1">
@@ -127,8 +159,8 @@
                             <p id="findus">ИЩИТЕ НАС В СОЦ. СЕТЯХ</p>
                             <table id="social">
                                 <tr>
-                                    <td id="insta"><a href="#"><img src="img/instagram.png"></a>
-                                    <td id="vk"><a href="#"><img src="img/vk.png"></a>
+                                    <td id="insta"><a href="#"><img src="content/img/instagram.png"></a>
+                                    <td id="vk"><a href="#"><img src="content/img/vk.png"></a>
                                 </tr>
                             </table>
                     </tr>
@@ -140,7 +172,7 @@
                         <td>
                             <p id="studio">Гостевой дом "Венеция", 2016г.<br>Студия веб-разработки FlyDev</p>
                         <td id="footlogo">
-                            <img src="img/logofoot.png">
+                            <img src="content/img/logofoot.png">
                         <td>
                             <p id="ofert">Договор оферты №66613</p>
                             <p id="date">29 апреля 2016</p>
@@ -154,7 +186,7 @@
 
 
 
-        </div>
     </div>
+</div>
 </body>
 </html>

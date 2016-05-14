@@ -39,16 +39,16 @@
     background: url("img/menuback.png");
 }
 
-.bord{
+.mm_bord{
     border-right: 1px #ffffff solid;
     border-left: 1px #ffffff solid;
 }
 
-.bord:last-child{
+.mm_bord:last-child{
     border-right: none;
 }
 
-.bord:first-child{
+.mm_bord:first-child{
     border-left: none;
 }
 

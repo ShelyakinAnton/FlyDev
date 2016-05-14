@@ -1,0 +1,39 @@
+#body_div{
+    width:960px;
+    margin:0 auto;
+}
+
+#info_div{
+    width:960px;
+    text-align:center;
+    margin-top:20px;
+    font-family:georgia;
+    font-size:17px;
+    color:#832231;
+}
+
+#a_style {
+    color: #8b313f;
+    font-family: georgia;
+}
+
+
+#slider_div{
+    width:510px;
+    height:550px;
+    margin:0 auto;
+    background-color:yellow;
+}
+
+
+#form_div{
+    width:510px;
+    height:355px;
+    margin:0 auto;
+    font-family:georgia;
+    font-size:17px;
+    color:#832231;
+}
+
+
+

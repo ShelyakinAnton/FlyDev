@@ -11,6 +11,7 @@
     <link href="css/glavnaya.css" rel="stylesheet" type="text/css">
     <link href="css/nomera.css" rel="stylesheet" type="text/css">
     <link href="css/romantic.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="flex/flexslider.css" type="text/css" media="screen">
 
 
     <link rel="stylesheet" href="sldr/css/demo.css" type="text/css" media="all">
@@ -32,6 +33,23 @@
     <!--[if lt IE 7]>  	<link rel="stylesheet" href="css/ie/ie6.css" type="text/css" media="screen">
     <![endif]-->  <!--[if lt IE 9]>  	<script type="text/javascript" src="js/html5.js"></script>	<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
     <![endif]-->
+
+    <script defer="" src="flex/jquery.flexslider-min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            SyntaxHighlighter.all();
+        });
+        $(window).load(function(){
+            $('.flexslider').flexslider({
+                animation: "fade",
+                slideshow: true,
+                slideshowSpeed: 5000,
+                start: function(slider){
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+    </script>
 </head>
 <body>
 <div id="background">
@@ -88,7 +106,7 @@
             <div id="mm_opt">
                 <table>
                     <tr>
-                        <td class="mm_bord" id="mm_romant"><a href="#">
+                        <td class="mm_bord" id="mm_romant"><a href="romantic.html">
                             <p class="text2">РОМАНТИЧЕСКИЙ ВЕЧЕР<br>ДЛЯ ДВОИХ</p></a>
                             <div>
                                 <img src="img/heart.png">
@@ -135,6 +153,26 @@
             </ul>
             <div class="bord"></div>
             <p id="rom_prize">8000 Р</p>
+                <div id="main" role="main">
+                    <section class="slider">
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <img src="img/rom.png">
+                                </li>
+                                <li>
+                                    <img src="img/rom.png">
+                                </li>
+                                <li>
+                                    <img src="img/rom.png">
+                                </li>
+                                <li>
+                                    <img src="img/rom.png">
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
         </div>
         <div id="footer">
             <div id="footer1">

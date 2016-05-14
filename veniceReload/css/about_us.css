@@ -95,3 +95,10 @@ a.knopka:active { color:#c01a34; } /* ��� ������� */
 
 
 
+.flextext{
+    color: #832231;
+    font-family: Georgia;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+}

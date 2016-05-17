@@ -102,3 +102,7 @@ a.knopka:active { color:#c01a34; } /* ��� ������� */
     display: block;
     margin: 0 auto;
 }
+
+.otz_info{
+    font-style: italic;
+}

@@ -12,10 +12,10 @@
 }
 
 #main_div{
-    background-color:#FFFFFF;
     width:960px;
     height:auto;
     margin:0 auto;
+    background-image: url(img/clear.png) no-repeat;
 }
 
 td a{
@@ -43,5 +43,13 @@ td a{
     height: 470px;
     padding-left: 13px;
     padding-right: 13px;
+}
+
+#white_back{
+    width: inherit;
+    height: auto;
+    position: relative;
+    background-color: #ffffff;
+    padding-top: 13px;
 }
 

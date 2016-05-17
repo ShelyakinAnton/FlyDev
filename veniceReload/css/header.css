@@ -1,9 +1,8 @@
 #header{
     position: relative;
-    background-color: #efe6dc;
     width: inherit;
     height: 133px;
-    background: #efe6dc url("img/headback.png") center no-repeat;
+    background: inherit;
 }
 
 #header ul{

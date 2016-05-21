@@ -2,7 +2,7 @@
     position: relative;
     width: inherit;
     height: 133px;
-    background: inherit;
+    background-image: url(img/clear.png);
 }
 
 #header ul{

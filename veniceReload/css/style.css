@@ -15,7 +15,7 @@
     width:960px;
     height:auto;
     margin:0 auto;
-    background-image: url(img/clear.png) no-repeat;
+    background-image: url(img/clear.png);
 }
 
 td a{

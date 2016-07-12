@@ -1,0 +1,254 @@
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.block1 {
+    height: 715px;
+}
+
+.block1-l {
+    float: left;
+    width: 66.5%;
+    
+}
+
+.block1-l img {
+    width: 100%;
+    height: 100%;
+}
+
+.block1-r {
+    float: left;
+    width: 33.5%;
+    background-color: #f3f3f3;
+    padding-left: 4%;
+    padding-right: 4%;    
+}
+
+.block1-r-h {
+    position: relative;
+    top: 160px;
+    color: #262e32;
+    font: 300 30px / 40px Roboto;
+}
+
+.block1-r-p {
+    padding-top: 200px;
+    color: #262e32;
+    font: 400 12px / 16px Roboto;
+}
+
+.menu {
+    position: relative;
+    top: 67px;
+}
+
+.block2 {
+    height: 853px;
+}
+
+.block2-l {
+    float: left;
+    padding-left: 4%;
+    padding-right: 4%;
+    width: 44.9%;
+    background: url(images/Rectangle-1-copy-2.png);
+}
+
+.block2-r {
+    float: left;
+    width: 55.1%;
+}
+
+.block2-r-t {
+    position: relative;
+    height: 50%;
+    background: url(images/Rectangle-1.png);
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.block2-r-b {
+    position: relative;
+    height: 50%;
+    background: url(images/Rectangle-1-copy.png);
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.block2-cont {
+    padding-top: 50px;
+}
+
+.block2-l-h {
+    color:rgba(255, 255, 255, 0.88);
+    font: 300 30px / 40px Roboto;
+}
+
+.block2-l-p {
+    padding-top: 30px;
+    color:rgba(255, 255, 255, 0.88);
+    font: 400 12px / 16px Roboto;
+}
+
+.block2-r-h {
+    color:rgba(38, 47, 50, 0.88);
+    font: 300 30px / 40px Roboto;
+}
+
+.block2-r-p {
+    padding-top: 30px;
+    color:rgba(38, 47, 50, 0.88);
+    font: 400 12px / 16px Roboto;
+}
+
+.block2-t-b {
+    color:rgba(38, 47, 50, 0.88);
+    font: 400 12px / 16px Roboto;
+    padding: auto;
+    border: #262f32 1px solid;
+    border-radius: 15px;
+    height: 52px;
+    width: 30%;
+    min-width: 150px;   
+    background: none;
+    cursor: pointer;
+    outline: none;
+    bottom: 70px;
+    position: absolute;
+}
+
+.block2-b-b {
+    color: #ffffff;
+    font: 400 12px / 16px Roboto;
+    text-align: center;
+    vertical-align: middle;
+    border: #ffffff 1px solid;
+    border-radius: 15px;
+    height: 52px;
+    width: 30%;
+    min-width: 150px;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    bottom: 70px;
+    position: absolute;
+}
+
+.block3 {
+    height: 715px;
+}
+
+.block3-l {
+    position: relative;
+    float: left;
+    width: 33.5%;
+    background: url(images/Rectangle-2-copy.png);
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.block3-r {
+    position: relative;
+    float: left;
+    width: 66.5%;
+    background: url(images/Rectangle-2.png);
+    opacity: 0.85;
+    padding-left: 4%;
+    padding-right: 4%;    
+}
+
+.block3-h {
+    padding-top: 50px;
+    color:#ffffff;
+    font: 300 30px / 40px Roboto;
+}
+
+.logo {
+    margin-top: 270px;
+    position: absolute;
+    bottom: 183px;
+}
+
+.block3-l-h-b {
+    position: absolute;
+    bottom: 108px;
+    padding-top: 30px;
+    color:#ffffff;
+    font: 300 30px / 40px Roboto;
+}
+
+.block3-l-p-b {
+    position: absolute;
+    bottom: 72px;
+    color: #ffffff;
+    font: 400 12px / 16px Roboto;
+}
+
+.hello {
+    position: absolute;
+    top: 190px;
+    color: #ffffff;
+    font: 400 12px / 16px Roboto;
+}
+
+.name {
+    float: left;
+    width: 40%;
+    margin-right: 2%;
+    border: #ffffff 1px solid;
+    background: none;
+    border-radius: 15px;
+    height: 52px;
+    outline: none;
+    padding-left: 2%;
+    min-width: 150px;   
+}
+
+.mail {
+    float: left;
+    width: 40%;
+    border: #ffffff 1px solid;
+    background: none;
+    border-radius: 15px;
+    height: 52px;
+    outline: none;
+    padding-left: 2%;
+    min-width: 150px;   
+}
+
+.msg {
+    color: #ffffff;
+    font: 400 12px / 16px Roboto;
+    clear: both;
+    margin-top: 2%;
+    width: 82%;
+    height: 156px;
+    border: #ffffff 1px solid;
+    background: none;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 2%;
+    padding-top: 15px;
+    resize: none;
+    min-width: 310px;
+}
+
+.social {
+    width: 100%;
+    position: absolute;
+    bottom: 138px;
+}
+
+.social img {
+    float: left;
+    margin-right: 1%;
+}
+
+.connect {
+    position: absolute;
+    bottom: 205px;
+    color: #ffffff;
+    font: 400 12px / 16px Roboto;
+}

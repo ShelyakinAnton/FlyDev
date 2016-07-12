@@ -69,19 +69,18 @@
 }
 
 #social tr td{
-    width: 159px;
+    width: 103px;
     height: 40px;
     display: inline-block;
     position: relative;
 }
 
 #vk img{
-    float: right;
-    margin-right: 28px;
+    margin-left: 28px;
 }
 
 #insta img{
-    margin-left: 75px;
+    margin-left: 28px;
 }
 
 #footer2{
